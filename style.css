@@ -1,0 +1,204 @@
+main {
+  padding: 20px 30px 0 30px;
+}
+.top_navbar{
+  background: #f72210;
+  padding: 20px 10px 15px;
+  width: 100%;
+  max-height: 96px;
+  display: block;
+}
+
+.top_navbar_list{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.top_navbar_list a{
+  color: white;
+}
+.top_navbar_item_left{
+  flex-direction:column;
+  font-size: 1rem;
+  margin-left:20px;
+  align-content: center;
+  width: fit-content;
+  font-weight: 600;
+  height: 100%;
+}
+.nav_img{
+  width: 24px;
+  height: 24px;
+}
+.date{
+  padding-top: 10px;
+  color: white;
+}
+.top_navbar_item_center{
+  display: flex;
+  justify-content: center;
+}
+.newsweek-logo{
+  width: 100%;
+  max-width: 390px;
+  height: auto;
+}
+.top_navbar_item_right{
+  display: flex;
+  font-size: 1.3rem;
+  padding-top: 30px;
+}
+.top_navbar_sign_in{
+  font-weight: 700;
+  padding: 6px 12px;
+  font-size: 18px;
+}
+.subscribe_btn{
+  color: red;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 6px 10px 6px 12px;
+  border: none;
+}
+.bottom_navbar a{
+  font-size: 1rem;
+  width: auto;
+}
+
+.search_input{
+  width: 100%;
+  font-size: 19px;
+}
+.fa-search{
+  padding-top: 10px;
+  font-size: 20px;
+  width: 100%;
+} 
+.heading{
+  padding-bottom: 11px;
+}
+.featured_stories{
+  border-radius: 0%;
+}
+.featured_img{
+  width: 100%;
+}
+
+.featured_heading{
+  font-size: 16px;
+  cursor: pointer;
+}
+.black{
+  color: black;
+}
+.featured_title{
+  margin-top: 20px;
+}
+.politics{
+  position: relative;
+  max-width: 100px;
+  /* margin-top: -1rem; */
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  color:red;
+  background-color: #ECEEEF;
+}
+
+.opinion_heading{
+  font-size: 16px;
+  margin-left: 3%;
+}
+
+.world{
+  position: absolute;
+  margin-top: -3.6% ;
+  padding: 0 10px;
+  text-decoration: none;
+  color:red;
+  background: #ECEEEF;
+}
+.opinion_article{
+  display: flex;
+  border-bottom: 1px solid #555;
+}
+.debate_img,
+.opinin_img{
+  width: 60px;
+  height: 60px;
+}
+.opinion_paragraph{
+  color: #000;
+  font-weight: 700;
+  margin-left: 0;
+}
+.opinion_article2{
+  padding-left: 10px;
+}
+.opinion_author{
+  color: #555;
+  font-size: 12px;
+  font-weight: bold;
+}
+.hero_container{
+  padding-left: 0;
+}
+.hero_container2{
+  padding-right: 0;
+}
+.hero_img{
+  max-width: 100%;
+  min-height: 115px;
+}
+.hero_stripe{
+  position: relative;
+  min-width: 116px;
+  margin-top: -1.1rem;
+  padding: 0 6px;
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+  color:#484C4D;
+  background-color:#C2D4D7;
+}
+
+.more_stories_title {
+  font-size: 15px;
+  width: 100%;
+  max-width: 500px;
+}
+.more-stories_img{
+  min-width: 96px;
+  width: 100%;
+}
+.debate{
+  border-bottom: 3px solid red;
+}
+.debate_host{
+  font-size: 12px;
+  min-width: 100px;
+  color: #333;
+  
+}
+.debate_host span{
+  color: #000;
+  font-weight: bolder;
+}
+/* @media screen and (min-width: 575px) {
+  body{
+    background-color: green;
+  }
+}
+
+@media screen and (min-width: 767px){ 
+  body{
+    background-color: yellow;
+  }
+ }
+
+ @media screen and (min-width: 1023px) {
+  body{
+    background-color: ghostwhite;
+  }
+ } */
+
