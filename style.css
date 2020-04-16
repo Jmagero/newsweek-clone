@@ -1,7 +1,21 @@
-main {
-  padding: 20px 30px 0 30px;
+
+.top-navbar{
+  background: #f72210;
+  width: 100%;
 }
-.top_navbar{
+.nav-1{
+  border: solid 2px green;
+}
+.ul-1{
+  border: solid 2px yellow;
+  width: 100%;
+}
+.newsweek-logo{
+  width: 100%;
+  max-width: 390px;
+  height: auto;
+}
+ /* .top_navbar{
   background: #f72210;
   padding: 20px 10px 15px;
   width: 100%;
@@ -25,12 +39,13 @@ main {
   width: fit-content;
   font-weight: 600;
   height: 100%;
-}
-.nav_img{
+} */
+
+.nav-img{
   width: 24px;
-  height: 24px;
-}
-.date{
+}  
+
+/* .date{
   padding-top: 10px;
   color: white;
 }
@@ -38,32 +53,28 @@ main {
   display: flex;
   justify-content: center;
 }
-.newsweek-logo{
-  width: 100%;
-  max-width: 390px;
-  height: auto;
-}
+
 .top_navbar_item_right{
   display: flex;
   font-size: 1.3rem;
   padding-top: 30px;
-}
+} */
 .top_navbar_sign_in{
   font-weight: 700;
-  padding: 6px 12px;
+  /* padding: 6px 12px; */
   font-size: 18px;
 }
 .subscribe_btn{
   color: red;
   font-weight: 700;
   font-size: 18px;
-  padding: 6px 10px 6px 12px;
+  /* padding: 6px 10px 6px 12px; */
   border: none;
 }
-.bottom_navbar a{
+/* .bottom_navbar a{
   font-size: 1rem;
   width: auto;
-}
+} */
 
 .search_input{
   width: 100%;
@@ -184,6 +195,83 @@ main {
   color: #000;
   font-weight: bolder;
 }
+/* 
+.in_the_magazine_title{
+  background-color: #f72210;
+} */
+.full-width{
+  width: 100%;
+}
+.full-height{
+  height: 100%;
+  min-height: 280px;
+}
+.img-container {
+  position: relative;
+  width: 100%;
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 16px;
+  background-color: rgb(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: fit-content;
+  padding: 8px 15px 9px;
+  margin-bottom: 2.4rem;
+  color: #f72210;
+}
+.category a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.mag-promo-link {
+  display: block;
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 10px 10px 10px 12px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mag-promo-link::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right-black.svg) center/contain no-repeat;
+}
+
+.cover-span{
+  background-color:  #f72210;
+  color: #fff ;
+}
+.mag_link{
+  color: #f72210;
+  /* font-weight: bold; */
+}
+.mag_link2{
+  text-decoration: none;
+  color: #000;
+  font-weight: bolder;
+}
+h2 a:hover{
+  color:black;
+  text-decoration: underline red;
+}
+.article2{
+  border: solid 2px red;
+}
 /* @media screen and (min-width: 575px) {
   body{
     background-color: green;
@@ -202,3 +290,46 @@ main {
   }
  } */
 
+.newsweek-icon{
+  width: 30px;
+  height: 30px;
+}
+
+.us{
+  font-size: 25px;
+}
+.us-wrapper{
+  border: solid 2px green;
+}
+.us-img{
+  width: 100px;
+  height: 100px;
+}
+.responsive {
+  width: 100%;
+  height: 100%;
+}
+.us2-wrapper{
+  border: solid 2px red;
+  width: 100%;
+  /* height: auto; */
+}
+.height{
+  height: 98px;
+}
+.sub-img{
+  max-width: 246px;
+}
+.sub-container{
+  background-color: #F4F5F6;
+}
+.sub-wrapper{
+  border: solid 2px red;
+}
+.footer-logo {
+  max-width: 236px;
+}
+.footer-copyright{
+  font-size: 10px;
+  font-weight: bold;
+}

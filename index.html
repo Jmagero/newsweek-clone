@@ -30,41 +30,46 @@
   </head>
   <body class=" border-top-0 border border-light">
   <!-- header -->
-    <header>
-      <nav class="top_navbar container-fluid">
-        <ul class="top_navbar_list">
-          <div class="top_navbar_item_left">
-            <li class="top_navbar_item">
-              <a class="top_navbar_link" href="#">
-                <img class="nav_img" src="https://g.newsweek.com/img/weather/28.png" alt="">
-                25° Kampala District, UG >
-              </a>
-            </li>
-            <li>
-              <p class="date d-sm-none d-md-block d-md-none d-lg-block ">Mon,Apr 13,2020</p>
-            </li>
-          </div>
-          <li class="top_navbar_item_center">
-            <a class="top_navbar_link_center">
-            <img class="newsweek-logo img-fluid" src="/newweek-logo.PNG" alt="newsweek">
-            </a>
-          </li>
-          <div class="top_navbar_item_right">
-            <li class="top_navbar_item">
-              <a class="top_navbar_sign_in" href="#">SIGN IN</a>
-            </li>
-            <li class="top_navbar_item">
-              <a class="top_navbar_link" href="#">
-                <button type="button" class="subscribe_btn">SUBSCRIBE ></button>
-              </a>
-            </li>
-          </div>
-        </ul>
+    <header class="container-fluid">
+      <nav class=" navbar-expand-lg top-navbar sticky-top nav-1">
+          <ul class="navbar-nav mr-auto justify-content-between u1-1">
+            <div class="top-navbar-left d-flex flex-column">
+              <li class="nav-item">
+                <a class="nav-link text-white  font-weight-bold" href="#">
+                  <img class="nav-img" src="https://g.newsweek.com/img/weather/28.png" alt="weather-icon">
+                  25° Kampala District, UG >
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white font-weight-bold" href="#">
+                  Mon,Apr 13,2020
+                </a>
+              </li>
+            </div>
+            <div>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img class="newsweek-logo full-width" src="/newweek-logo.PNG" alt="newsweek">
+                </a>
+              </li>
+            </div>
+            <div class="top_navbar_item_right d-flex align-items-end">
+              <li class="nav-item">
+                <a class="nav-link text-white font-weight-bold" href="#">SIGN IN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <button type="button" class="subscribe_btn">SUBSCRIBE ></button>
+                </a>
+              </li>
+            </div>
+          </ul>
       </nav>
+      
       <nav class=" bottom_navbar pr-0 pl-0 navbar navbar-expand-lg navbar-light navigation border-bottom">
         <!-- navigation -->
         <div class=" bottom_navbar2 collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class=" d-flex flex-row align-items-center nav-list font-weight-bold text-body">
+          <ul class=" d-flex flex-row align-items-center nav-list font-weight-bold text-body justify-content-between">
             <li class="nav-item"><a class="nav-link text-body border-right" href="#">U.S</a></li>
             <li  class="nav-item"><a class="nav-link text-body border-right"href="#">World</a></a></li>
             <li class="nav-item"><a class="nav-link text-body border-right" href="#">Business</a></li>
@@ -84,219 +89,284 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="container-fluid">
         <div class="container-fluid main_wrapper">
-          <div class="row">
-            <div class='col-md col-lg featured_stories'>
-              <div class='col-sm-12'>
-                <section>
-                  <h1 class="text-secondary display-4 font-weight-bolder featured_heading heading">FEATURED STORIES</h1>
-                  <div class="card border-0">
-                    <a href="#">
-                      <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
-                      <div >
-                        <p class="politics">POLITICS</p>
+          <div class=" row first_section_wrapper">
+            <div class="row">
+              <div class='col-md col-lg featured_stories'>
+                <div class='col-sm-12'>
+                  <section>
+                    <h1 class="text-secondary display-4 font-weight-bolder featured_heading heading">FEATURED STORIES</h1>
+                    <div class="card border-0">
+                      <a href="#">
+                        <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
+                        <div >
+                          <p class="politics">POLITICS</p>
+                        </div>
+                        <div class='featured_title'>
+                          <h5 class=" card-title text-body text-left text-decoration-none">
+                            Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
+                          </h5>
+                        </div>
+                      </a>
+                      <div>
+                        <p class="feature_paragraph">Have the pollsters learned from their mistakes in the 
+                          2016 presidential election? Maybe. Maybe not.
+                        </p>
                       </div>
-                      <div class='featured_title'>
-                        <h5 class=" card-title text-body text-left text-decoration-none">
-                          Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
-                        </h5>
-                      </div>
-                    </a>
-                    <div>
-                      <p class="feature_paragraph">Have the pollsters learned from their mistakes in the 
-                        2016 presidential election? Maybe. Maybe not.
-                      </p>
                     </div>
-                  </div>
-                </section>
-              </div>
-              <div class='col-sm-12'>
-                <section>
-                  <div class="card border-0">
-                    <a href="#">
-                      <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
-                      <div >
-                        <p class="politics">POLITICS</p>
-                      </div>
-                      <div class='featured_title'>
-                        <h5 class=" card-title text-body text-left text-decoration-none pt-0">
-                          Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
-                        </h5>
-                      </div>
-                    </a>
-                    <div>
-                      <p class="feature_paragraph pb-3">Have the pollsters learned from their mistakes in the 
-                        2016 presidential election? Maybe. Maybe not.
-                      </p>
-                    </div>
-                  </div>
-                </section>
-              </div>
-              <div class='col-sm-12'>
-                <section>
-                  <div class="card border-0">
-                    <a href="#">
-                      <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
-                      <div >
-                        <p class="politics">POLITICS</p>
-                      </div>
-                      <div class='featured_title'>
-                        <h5 class=" card-title text-body text-left text-decoration-none pt-0">
-                          Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
-                        </h5>
-                      </div>
-                    </a>
-                    <div>
-                      <p class="feature_paragraph pb-3">Have the pollsters learned from their mistakes in the 
-                        2016 presidential election? Maybe. Maybe not.
-                      </p>
-                    </div>
-                  </div>
-                </section>
-              </div>
-              <div class='col-sm-12'>
-                <section>
-                  <div class="card border-0">
-                    <a href="#">
-                      <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
-                      <div >
-                        <p class="politics">POLITICS</p>
-                      </div>
-                      <div class='featured_title'>
-                        <h5 class=" card-title text-body text-left text-decoration-none pt-0">
-                          Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
-                        </h5>
-                      </div>
-                    </a>
-                    <div>
-                      <p class="feature_paragraph pb-3">Have the pollsters learned from their mistakes in the 
-                        2016 presidential election? Maybe. Maybe not.
-                      </p>
-                    </div>
-                  </div>
-                </section>
-              </div>
-              <div class='col-sm-12'>
-                <section>
-                  <div class="card border-0">
-                    <a href="#">
-                      <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
-                      <div >
-                        <p class="politics">POLITICS</p>
-                      </div>
-                      <div class='featured_title'>
-                        <h5 class=" card-title text-body text-left text-decoration-none pt-0">
-                          Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
-                        </h5>
-                      </div>
-                    </a>
-                    <div>
-                      <p class="feature_paragraph pb-3">Have the pollsters learned from their mistakes in the 
-                        2016 presidential election? Maybe. Maybe not.
-                      </p>
-                    </div>
-                  </div>
-                </section>
-              </div>
-              <div class='col-sm-12'>
-                <section>
-                  <div class="card border-0">
-                    <a href="#">
-                      <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
-                      <div >
-                        <p class="politics">POLITICS</p>
-                      </div>
-                      <div class='featured_title'>
-                        <h5 class=" card-title text-body text-left text-decoration-none pt-0">
-                          Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
-                        </h5>
-                      </div>
-                    </a>
-                    <div>
-                      <p class="feature_paragraph pb-3">Have the pollsters learned from their mistakes in the 
-                        2016 presidential election? Maybe. Maybe not.
-                      </p>
-                    </div>
-                  </div>
-                </section>
-              </div>
-              <div class='col-sm-12'>
-                <section>
-                  <div class="card border-0">
-                    <a href="#">
-                      <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
-                      <div >
-                        <p class="politics">POLITICS</p>
-                      </div>
-                      <div class='featured_title'>
-                        <h5 class=" card-title text-body text-left text-decoration-none pt-0">
-                          Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
-                        </h5>
-                      </div>
-                    </a>
-                    <div>
-                      <p class="feature_paragraph pb-3">Have the pollsters learned from their mistakes in the 
-                        2016 presidential election? Maybe. Maybe not.
-                      </p>
-                    </div>
-                  </div>
-                </section>
-              </div>
-              <div class='col-sm-12'>
-                <section>
-                  <div class="card border-0">
-                    <a href="#">
-                      <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
-                      <div >
-                        <p class="politics">POLITICS</p>
-                      </div>
-                      <div class='featured_title'>
-                        <h5 class=" card-title text-body text-left text-decoration-none pt-0">
-                          Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
-                        </h5>
-                      </div>
-                    </a>
-                    <div>
-                      <p class="feature_paragraph pb-3">Have the pollsters learned from their mistakes in the 
-                        2016 presidential election? Maybe. Maybe not.
-                      </p>
-                    </div>
-                  </div>
-                </section>
-              </div>
-            </div>
-            <div class='col-md-7 col-lg-5'>
-              <section>
-                <h1 class="text-secondary display-4 font-weight-bolder featured_heading heading">TOP STORY</h1>
-                <div class="border-bottom pb-3">
-                  <a href="#">
-                    <img class="featured_img rounded-0"
-                    src="https://d.newsweek.com/en/full/1581101/china-aircraft-carrier-liaoning-pacific.jpg" 
-                    class="card-img-top" alt="top story">
-                    <p class="politics">WORLD</p>
-                    <div class='featured_title'>
-                      <h5 class=" text-dark text-decoration-none">
-                        Chinese Carrier Sails into Pacific, Media Mock U.S. Navy's COVID-19 Woes
-                      </h5>
-                    </div>
-                  </a>
-                  <div>
-                    <p class="text-body text-decoration-none">
-                      "As the most powerful military force in the world,
-                       with the highest level of combat readiness,
-                        the U.S. military's failure to contain 
-                        he virus has been disappointing," 
-                        Peking University Center for Maritime Strategy Studies director Hu Bo wrote.
-                    </p>
-                  </div>
+                  </section>
                 </div>
-              </section>
-              <div class="container">
-                <div class="row">
-                  <h2 class="text-secondary display-4 font-weight-bolder featured_heading py-2">HEROES OF PANDEMIC</h2>
+                <div class='col-sm-12'>
+                  <section>
+                    <div class="card border-0">
+                      <a href="#">
+                        <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
+                        <div >
+                          <p class="politics">POLITICS</p>
+                        </div>
+                        <div class='featured_title'>
+                          <h5 class=" card-title text-body text-left text-decoration-none pt-0">
+                            Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
+                          </h5>
+                        </div>
+                      </a>
+                      <div>
+                        <p class="feature_paragraph pb-3">Have the pollsters learned from their mistakes in the 
+                          2016 presidential election? Maybe. Maybe not.
+                        </p>
+                      </div>
+                    </div>
+                  </section>
                 </div>
-                <div class="row">
+                <div class='col-sm-12'>
+                  <section>
+                    <div class="card border-0">
+                      <a href="#">
+                        <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
+                        <div >
+                          <p class="politics">POLITICS</p>
+                        </div>
+                        <div class='featured_title'>
+                          <h5 class=" card-title text-body text-left text-decoration-none pt-0">
+                            Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
+                          </h5>
+                        </div>
+                      </a>
+                      <div>
+                        <p class="feature_paragraph pb-3">Have the pollsters learned from their mistakes in the 
+                          2016 presidential election? Maybe. Maybe not.
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class='col-sm-12'>
+                  <section>
+                    <div class="card border-0">
+                      <a href="#">
+                        <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
+                        <div >
+                          <p class="politics">POLITICS</p>
+                        </div>
+                        <div class='featured_title'>
+                          <h5 class=" card-title text-body text-left text-decoration-none pt-0">
+                            Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
+                          </h5>
+                        </div>
+                      </a>
+                      <div>
+                        <p class="feature_paragraph pb-3">Have the pollsters learned from their mistakes in the 
+                          2016 presidential election? Maybe. Maybe not.
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class='col-sm-12'>
+                  <section>
+                    <div class="card border-0">
+                      <a href="#">
+                        <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
+                        <div >
+                          <p class="politics">POLITICS</p>
+                        </div>
+                        <div class='featured_title'>
+                          <h5 class=" card-title text-body text-left text-decoration-none pt-0">
+                            Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
+                          </h5>
+                        </div>
+                      </a>
+                      <div>
+                        <p class="feature_paragraph pb-3">Have the pollsters learned from their mistakes in the 
+                          2016 presidential election? Maybe. Maybe not.
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class='col-sm-12'>
+                  <section>
+                    <div class="card border-0">
+                      <a href="#">
+                        <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
+                        <div >
+                          <p class="politics">POLITICS</p>
+                        </div>
+                        <div class='featured_title'>
+                          <h5 class=" card-title text-body text-left text-decoration-none pt-0">
+                            Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
+                          </h5>
+                        </div>
+                      </a>
+                      <div>
+                        <p class="feature_paragraph pb-3">Have the pollsters learned from their mistakes in the 
+                          2016 presidential election? Maybe. Maybe not.
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class='col-sm-12'>
+                  <section>
+                    <div class="card border-0">
+                      <a href="#">
+                        <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
+                        <div >
+                          <p class="politics">POLITICS</p>
+                        </div>
+                        <div class='featured_title'>
+                          <h5 class=" card-title text-body text-left text-decoration-none pt-0">
+                            Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
+                          </h5>
+                        </div>
+                      </a>
+                      <div>
+                        <p class="feature_paragraph pb-3">Have the pollsters learned from their mistakes in the 
+                          2016 presidential election? Maybe. Maybe not.
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class='col-sm-12'>
+                  <section>
+                    <div class="card border-0">
+                      <a href="#">
+                        <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
+                        <div >
+                          <p class="politics">POLITICS</p>
+                        </div>
+                        <div class='featured_title'>
+                          <h5 class=" card-title text-body text-left text-decoration-none pt-0">
+                            Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
+                          </h5>
+                        </div>
+                      </a>
+                      <div>
+                        <p class="feature_paragraph pb-3">Have the pollsters learned from their mistakes in the 
+                          2016 presidential election? Maybe. Maybe not.
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div class='col-md-7 col-lg-5'>
+                <section>
+                  <h1 class="text-secondary display-4 font-weight-bolder featured_heading heading">TOP STORY</h1>
+                  <div class="border-bottom pb-3">
+                    <a href="#">
+                      <img class="featured_img rounded-0"
+                      src="https://d.newsweek.com/en/full/1581101/china-aircraft-carrier-liaoning-pacific.jpg" 
+                      class="card-img-top" alt="top story">
+                      <p class="politics">WORLD</p>
+                      <div class='featured_title'>
+                        <h5 class=" text-dark text-decoration-none">
+                          Chinese Carrier Sails into Pacific, Media Mock U.S. Navy's COVID-19 Woes
+                        </h5>
+                      </div>
+                    </a>
+                    <div>
+                      <p class="text-body text-decoration-none">
+                        "As the most powerful military force in the world,
+                         with the highest level of combat readiness,
+                          the U.S. military's failure to contain 
+                          he virus has been disappointing," 
+                          Peking University Center for Maritime Strategy Studies director Hu Bo wrote.
+                      </p>
+                    </div>
+                  </div>
+                </section>
+                <div class="container">
+                  <div class="row">
+                    <h2 class="text-secondary display-4 font-weight-bolder featured_heading py-2">HEROES OF PANDEMIC</h2>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-4 hero_container">
+                        <div class="border-0 pb-3">
+                          <a href="#">
+                            <img class=" hero_img img-fluid" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" alt="Pandemic heros">
+                            <p class="politics hero_stripe">Pandemic Heroes</p>
+                            <div class='featured_title'>
+                              <h5 class="text-dark text-decoration-none">
+                                Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                              </h5>
+                            </div>
+                          </a>
+                            <div>
+                              <p class="feature_paragraph text-body text-decoration-none">
+                                "We all have to help each other," Matthew Fermin, 
+                                owner of East Harlem restaurant Santiago's 
+                                Beer Garden, told Newsweek.
+                              </p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4 hero_container">
+                        <div class="border-0">
+                          <a href="#">
+                            <img class=" hero_img img-fluid" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" alt="Pandemic heros">
+                            <p class="politics hero_stripe">Pandemic Heroes</p>
+        
+                            <div class='featured_title'>
+                              <h5 class=" text-dark text-decoration-none">
+                                Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                              </h5>
+                            </div>
+                          </a>
+                            <div>
+                              <p class="feature_paragraph text-body text-decoration-none">
+                                "We all have to help each other," Matthew Fermin, 
+                                owner of East Harlem restaurant Santiago's 
+                                Beer Garden, told Newsweek.
+                              </p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4 hero_container2">
+                        <div class=" border-0">
+                          <a href="#">
+                            <img class=" hero_img img-fluid" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" alt="Pandemic heros">
+                            <p class="politics hero_stripe">Pandemic Heroes</p>
+        
+                            <div class='featured_title'>
+                              <h5 class=" text-dark text-decoration-none">
+                                Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                              </h5>
+                            </div>
+                          </a>
+                            <div>
+                              <p class="feature_paragraph text-body text-decoration-none">
+                                "We all have to help each other," Matthew Fermin, 
+                                owner of East Harlem restaurant Santiago's 
+                                Beer Garden, told Newsweek.
+                              </p>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="row">
                     <div class="col-sm-4 hero_container">
                       <div class="border-0 pb-3">
                         <a href="#">
@@ -359,270 +429,215 @@
                           </div>
                       </div>
                     </div>
+                  </div>
                 </div>
-                <div class="row">
-                  <div class="col-sm-4 hero_container">
-                    <div class="border-0 pb-3">
+                <div class="container">
+                  <div class="row py-2 border-bottom">
+                    <h2 class="text-secondary display-4 font-weight-bolder featured_heading m">MORE STORIES</h2>
+                  </div>
+                  <div class="row more_stories_container py-3 border-bottom">
+                    <div class="col-sm-3 pl-0">
+                      <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+                    </div>
+                    <div class="col-sm-9 more_stories_title ">
                       <a href="#">
-                        <img class=" hero_img img-fluid" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" alt="Pandemic heros">
-                        <p class="politics hero_stripe">Pandemic Heroes</p>
-                        <div class='featured_title'>
+                        <div>
                           <h5 class="text-dark text-decoration-none">
                             Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
                           </h5>
                         </div>
                       </a>
-                        <div>
-                          <p class="feature_paragraph text-body text-decoration-none">
-                            "We all have to help each other," Matthew Fermin, 
-                            owner of East Harlem restaurant Santiago's 
-                            Beer Garden, told Newsweek.
-                          </p>
-                        </div>
+                      <div>
+                        <p class="text-body text-wrap">
+                          "We all have to help each other," Matthew Fermin, 
+                          owner of East Harlem restaurant Santiago's 
+                          Beer Garden, told Newsweek.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-sm-4 hero_container">
-                    <div class="border-0">
+                  <div class="row more_stories_container py-3 border-bottom">
+                    <div class="col-sm-3 pl-0">
+                      <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+                    </div>
+                    <div class="col-sm-9 more_stories_title ">
                       <a href="#">
-                        <img class=" hero_img img-fluid" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" alt="Pandemic heros">
-                        <p class="politics hero_stripe">Pandemic Heroes</p>
-    
-                        <div class='featured_title'>
-                          <h5 class=" text-dark text-decoration-none">
+                        <div>
+                          <h5 class="text-dark text-decoration-none">
                             Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
                           </h5>
                         </div>
                       </a>
-                        <div>
-                          <p class="feature_paragraph text-body text-decoration-none">
-                            "We all have to help each other," Matthew Fermin, 
-                            owner of East Harlem restaurant Santiago's 
-                            Beer Garden, told Newsweek.
-                          </p>
-                        </div>
+                      <div>
+                        <p class="text-body text-wrap">
+                          "We all have to help each other," Matthew Fermin, 
+                          owner of East Harlem restaurant Santiago's 
+                          Beer Garden, told Newsweek.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-sm-4 hero_container2">
-                    <div class=" border-0">
+                  <div class="row more_stories_container py-3 border-bottom">
+                    <div class="col-sm-3 pl-0">
+                      <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+                    </div>
+                    <div class="col-sm-9 more_stories_title ">
                       <a href="#">
-                        <img class=" hero_img img-fluid" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" alt="Pandemic heros">
-                        <p class="politics hero_stripe">Pandemic Heroes</p>
-    
-                        <div class='featured_title'>
-                          <h5 class=" text-dark text-decoration-none">
+                        <div>
+                          <h5 class="text-dark text-decoration-none">
                             Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
                           </h5>
                         </div>
                       </a>
+                      <div>
+                        <p class="text-body text-wrap">
+                          "We all have to help each other," Matthew Fermin, 
+                          owner of East Harlem restaurant Santiago's 
+                          Beer Garden, told Newsweek.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row more_stories_container py-3 border-bottom">
+                    <div class="col-sm-3 pl-0">
+                      <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+                    </div>
+                    <div class="col-sm-9 more_stories_title ">
+                      <a href="#">
                         <div>
-                          <p class="feature_paragraph text-body text-decoration-none">
-                            "We all have to help each other," Matthew Fermin, 
-                            owner of East Harlem restaurant Santiago's 
-                            Beer Garden, told Newsweek.
-                          </p>
+                          <h5 class="text-dark text-decoration-none">
+                            Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                          </h5>
                         </div>
+                      </a>
+                      <div>
+                        <p class="text-body text-wrap">
+                          "We all have to help each other," Matthew Fermin, 
+                          owner of East Harlem restaurant Santiago's 
+                          Beer Garden, told Newsweek.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row more_stories_container py-3 border-bottom">
+                    <div class="col-sm-3 pl-0">
+                      <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+                    </div>
+                    <div class="col-sm-9 more_stories_title ">
+                      <a href="#">
+                        <div>
+                          <h5 class="text-dark text-decoration-none">
+                            Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                          </h5>
+                        </div>
+                      </a>
+                      <div>
+                        <p class="text-body text-wrap">
+                          "We all have to help each other," Matthew Fermin, 
+                          owner of East Harlem restaurant Santiago's 
+                          Beer Garden, told Newsweek.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row more_stories_container py-3 border-bottom">
+                    <div class="col-sm-3 pl-0">
+                      <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+                    </div>
+                    <div class="col-sm-9 more_stories_title ">
+                      <a href="#">
+                        <div>
+                          <h5 class="text-dark text-decoration-none">
+                            Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                          </h5>
+                        </div>
+                      </a>
+                      <div>
+                        <p class="text-body text-wrap">
+                          "We all have to help each other," Matthew Fermin, 
+                          owner of East Harlem restaurant Santiago's 
+                          Beer Garden, told Newsweek.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row more_stories_container py-3 border-bottom">
+                    <div class="col-sm-3 pl-0">
+                      <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+                    </div>
+                    <div class="col-sm-9 more_stories_title ">
+                      <a href="#">
+                        <div>
+                          <h5 class="text-dark text-decoration-none">
+                            Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                          </h5>
+                        </div>
+                      </a>
+                      <div>
+                        <p class="text-body text-wrap">
+                          "We all have to help each other," Matthew Fermin, 
+                          owner of East Harlem restaurant Santiago's 
+                          Beer Garden, told Newsweek.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row more_stories_container py-3 border-bottom">
+                    <div class="col-sm-3 pl-0">
+                      <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+                    </div>
+                    <div class="col-sm-9 more_stories_title ">
+                      <a href="#">
+                        <div>
+                          <h5 class="text-dark text-decoration-none">
+                            Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                          </h5>
+                        </div>
+                      </a>
+                      <div>
+                        <p class="text-body text-wrap">
+                          "We all have to help each other," Matthew Fermin, 
+                          owner of East Harlem restaurant Santiago's 
+                          Beer Garden, told Newsweek.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row more_stories_container py-3 border-bottom">
+                    <div class="col-sm-3 pl-0">
+                      <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+                    </div>
+                    <div class="col-sm-9 more_stories_title ">
+                      <a href="#">
+                        <div>
+                          <h5 class="text-dark text-decoration-none">
+                            Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                          </h5>
+                        </div>
+                      </a>
+                      <div>
+                        <p class="text-body text-wrap">
+                          "We all have to help each other," Matthew Fermin, 
+                          owner of East Harlem restaurant Santiago's 
+                          Beer Garden, told Newsweek.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="container">
-                <div class="row py-2 border-bottom">
-                  <h2 class="text-secondary display-4 font-weight-bolder featured_heading m">MORE STORIES</h2>
-                </div>
-                <div class="row more_stories_container py-3 border-bottom">
-                  <div class="col-sm-3 pl-0">
-                    <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
-                  </div>
-                  <div class="col-sm-9 more_stories_title ">
-                    <a href="#">
-                      <div>
-                        <h5 class="text-dark text-decoration-none">
-                          Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
-                        </h5>
-                      </div>
-                    </a>
-                    <div>
-                      <p class="text-body text-wrap">
-                        "We all have to help each other," Matthew Fermin, 
-                        owner of East Harlem restaurant Santiago's 
-                        Beer Garden, told Newsweek.
-                      </p>
+              <div class=' col-sm-12 col-md-6 col-lg container'>
+                <h1 class="text-secondary display-4 font-weight-bolder featured_heading heading">OPINION</h1>
+                <div class=" row opinion_article pb-3 border-bottom">
+                    <div class="col-md-3">
+                      <img class="opinin_img"src="https://d.newsweek.com/en/full/1577421/hank-gilman.png" alt="opinion image">
                     </div>
-                  </div>
-                </div>
-                <div class="row more_stories_container py-3 border-bottom">
-                  <div class="col-sm-3 pl-0">
-                    <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
-                  </div>
-                  <div class="col-sm-9 more_stories_title ">
-                    <a href="#">
-                      <div>
-                        <h5 class="text-dark text-decoration-none">
-                          Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
-                        </h5>
-                      </div>
-                    </a>
-                    <div>
-                      <p class="text-body text-wrap">
-                        "We all have to help each other," Matthew Fermin, 
-                        owner of East Harlem restaurant Santiago's 
-                        Beer Garden, told Newsweek.
-                      </p>
+                    <div class="opinion_article2 col-md-9">
+                      <p class="opinion_paragraph">Ben Bernanke, Video Star…Starbucks Rescue…Pro Sports in Limbo…and Lady Gaga</p>
+                      <p class="opinion_author pt-2">BY HANK GILMAN</p>
                     </div>
-                  </div>
                 </div>
-                <div class="row more_stories_container py-3 border-bottom">
-                  <div class="col-sm-3 pl-0">
-                    <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
-                  </div>
-                  <div class="col-sm-9 more_stories_title ">
-                    <a href="#">
-                      <div>
-                        <h5 class="text-dark text-decoration-none">
-                          Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
-                        </h5>
-                      </div>
-                    </a>
-                    <div>
-                      <p class="text-body text-wrap">
-                        "We all have to help each other," Matthew Fermin, 
-                        owner of East Harlem restaurant Santiago's 
-                        Beer Garden, told Newsweek.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row more_stories_container py-3 border-bottom">
-                  <div class="col-sm-3 pl-0">
-                    <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
-                  </div>
-                  <div class="col-sm-9 more_stories_title ">
-                    <a href="#">
-                      <div>
-                        <h5 class="text-dark text-decoration-none">
-                          Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
-                        </h5>
-                      </div>
-                    </a>
-                    <div>
-                      <p class="text-body text-wrap">
-                        "We all have to help each other," Matthew Fermin, 
-                        owner of East Harlem restaurant Santiago's 
-                        Beer Garden, told Newsweek.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row more_stories_container py-3 border-bottom">
-                  <div class="col-sm-3 pl-0">
-                    <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
-                  </div>
-                  <div class="col-sm-9 more_stories_title ">
-                    <a href="#">
-                      <div>
-                        <h5 class="text-dark text-decoration-none">
-                          Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
-                        </h5>
-                      </div>
-                    </a>
-                    <div>
-                      <p class="text-body text-wrap">
-                        "We all have to help each other," Matthew Fermin, 
-                        owner of East Harlem restaurant Santiago's 
-                        Beer Garden, told Newsweek.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row more_stories_container py-3 border-bottom">
-                  <div class="col-sm-3 pl-0">
-                    <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
-                  </div>
-                  <div class="col-sm-9 more_stories_title ">
-                    <a href="#">
-                      <div>
-                        <h5 class="text-dark text-decoration-none">
-                          Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
-                        </h5>
-                      </div>
-                    </a>
-                    <div>
-                      <p class="text-body text-wrap">
-                        "We all have to help each other," Matthew Fermin, 
-                        owner of East Harlem restaurant Santiago's 
-                        Beer Garden, told Newsweek.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row more_stories_container py-3 border-bottom">
-                  <div class="col-sm-3 pl-0">
-                    <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
-                  </div>
-                  <div class="col-sm-9 more_stories_title ">
-                    <a href="#">
-                      <div>
-                        <h5 class="text-dark text-decoration-none">
-                          Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
-                        </h5>
-                      </div>
-                    </a>
-                    <div>
-                      <p class="text-body text-wrap">
-                        "We all have to help each other," Matthew Fermin, 
-                        owner of East Harlem restaurant Santiago's 
-                        Beer Garden, told Newsweek.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row more_stories_container py-3 border-bottom">
-                  <div class="col-sm-3 pl-0">
-                    <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
-                  </div>
-                  <div class="col-sm-9 more_stories_title ">
-                    <a href="#">
-                      <div>
-                        <h5 class="text-dark text-decoration-none">
-                          Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
-                        </h5>
-                      </div>
-                    </a>
-                    <div>
-                      <p class="text-body text-wrap">
-                        "We all have to help each other," Matthew Fermin, 
-                        owner of East Harlem restaurant Santiago's 
-                        Beer Garden, told Newsweek.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row more_stories_container py-3 border-bottom">
-                  <div class="col-sm-3 pl-0">
-                    <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
-                  </div>
-                  <div class="col-sm-9 more_stories_title ">
-                    <a href="#">
-                      <div>
-                        <h5 class="text-dark text-decoration-none">
-                          Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
-                        </h5>
-                      </div>
-                    </a>
-                    <div>
-                      <p class="text-body text-wrap">
-                        "We all have to help each other," Matthew Fermin, 
-                        owner of East Harlem restaurant Santiago's 
-                        Beer Garden, told Newsweek.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class=' col-sm-12 col-md-6 col-lg container'>
-              <h1 class="text-secondary display-4 font-weight-bolder featured_heading heading">OPINION</h1>
-              <div class=" row opinion_article pb-3 border-bottom">
+                <div class=" row opinion_article pb-3 border-bottom">
                   <div class="col-md-3">
                     <img class="opinin_img"src="https://d.newsweek.com/en/full/1577421/hank-gilman.png" alt="opinion image">
                   </div>
@@ -630,166 +645,766 @@
                     <p class="opinion_paragraph">Ben Bernanke, Video Star…Starbucks Rescue…Pro Sports in Limbo…and Lady Gaga</p>
                     <p class="opinion_author pt-2">BY HANK GILMAN</p>
                   </div>
-              </div>
-              <div class=" row opinion_article pb-3 border-bottom">
-                <div class="col-md-3">
-                  <img class="opinin_img"src="https://d.newsweek.com/en/full/1577421/hank-gilman.png" alt="opinion image">
                 </div>
-                <div class="opinion_article2 col-md-9">
-                  <p class="opinion_paragraph">Ben Bernanke, Video Star…Starbucks Rescue…Pro Sports in Limbo…and Lady Gaga</p>
-                  <p class="opinion_author pt-2">BY HANK GILMAN</p>
+                <div class=" row opinion_article pb-3 border-bottom">
+                  <div class="col-md-3">
+                    <img class="opinin_img"src="https://d.newsweek.com/en/full/1577421/hank-gilman.png" alt="opinion image">
+                  </div>
+                  <div class="opinion_article2 col-md-9">
+                    <p class="opinion_paragraph">Ben Bernanke, Video Star…Starbucks Rescue…Pro Sports in Limbo…and Lady Gaga</p>
+                    <p class="opinion_author pt-2">BY HANK GILMAN</p>
+                  </div>
                 </div>
-              </div>
-              <div class=" row opinion_article pb-3 border-bottom">
-                <div class="col-md-3">
-                  <img class="opinin_img"src="https://d.newsweek.com/en/full/1577421/hank-gilman.png" alt="opinion image">
+                <div class=" row opinion_article pb-3 border-bottom">
+                  <div class="col-md-3">
+                    <img class="opinin_img"src="https://d.newsweek.com/en/full/1577421/hank-gilman.png" alt="opinion image">
+                  </div>
+                  <div class="opinion_article2 col-md-9">
+                    <p class="opinion_paragraph">Ben Bernanke, Video Star…Starbucks Rescue…Pro Sports in Limbo…and Lady Gaga</p>
+                    <p class="opinion_author pt-2">BY HANK GILMAN</p>
+                  </div>
                 </div>
-                <div class="opinion_article2 col-md-9">
-                  <p class="opinion_paragraph">Ben Bernanke, Video Star…Starbucks Rescue…Pro Sports in Limbo…and Lady Gaga</p>
-                  <p class="opinion_author pt-2">BY HANK GILMAN</p>
-                </div>
-              </div>
-              <div class=" row opinion_article pb-3 border-bottom">
-                <div class="col-md-3">
-                  <img class="opinin_img"src="https://d.newsweek.com/en/full/1577421/hank-gilman.png" alt="opinion image">
-                </div>
-                <div class="opinion_article2 col-md-9">
-                  <p class="opinion_paragraph">Ben Bernanke, Video Star…Starbucks Rescue…Pro Sports in Limbo…and Lady Gaga</p>
-                  <p class="opinion_author pt-2">BY HANK GILMAN</p>
-                </div>
-              </div>
-              <div class="row debate">
-                <h2 class="text-secondary display-4 font-weight-bolder featured_heading py-2">THE DEBATE</h2>
-              </div>
-              <div class="row more_stories_container">
-                <div class="col-sm-3 pl-0">
-                  <img class="img-fluid more-stories_img border-bottom"src="https://d.newsweek.com/en/full/1580915/store-closing.jpg" 
-                  alt="more stories">
-                </div>
-                <div class="col-sm-9 more_stories_title ">
-                  <a href="#">
+                <section class="px-md-3 my-4">
+                  <h2 class="font-roboto stories-title">THE DEBATE</h2>
+                    <div class="d-flex align-items-center debate-info full-width">
+                      <div>
+                        <a href="#">
+                          <img src="https://d.newsweek.com/en/full/1575781/joe-biden.jpg?w=95&h=95&f=326727fa24be15336b6173ba3187d344" alt="Joe Biden">
+                        </a>
+                      </div>
+                      <div class="ml-3 debate-link-container">
+                        <a class ="story-link opinion-link" href="#">Biden's Running Mate Needs to Win Him an Entire State, Not Just a Constituency</a>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center debate-author-container">
+                      <div>
+                        <span class="font-roboto opinion-author font-weight-normal">by</span>
+                        <a class="font-roboto opinion-author debate-author" href="#">PETER ROFF</a>
+                      </div>
+                      <div class="debate-avatar-container">
+                        <img src="https://d.newsweek.com/en/full/1528785/roff-new.png?w=150&h=150&f=0992b2cf5c54139a019181659687bf9a" alt="roff new">
+                      </div>
+                    </div>
+                    <div class="vs font-roboto">VS</div>
                     <div>
-                      <h5 class="text-dark text-decoration-none pt-2">
-                        Trump Is Empowering States—As He Should. Now It's Time to Put America to Work
+                      <div class="d-flex align-items-center debate-info full-width top-border-blue">
+                        <div>
+                          <a href="#">
+                            <img src="https://d.newsweek.com/en/full/1573022/joe-biden-bernie-sanders.jpg?w=95&h=95&f=05a75fc389226846abc904e772526a3d" alt="Joe Biden and Bernie Sanders">
+                          </a>
+                        </div>
+                        <div class="ml-3 debate-link-container">
+                          <a class ="story-link opinion-link" href="#">A Woman of Color VP Is More Than a Consolation Prize. It's a Necessity</a>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="d-flex justify-content-between align-items-center debate-author-container">
+                        <div>
+                          <span class="font-roboto opinion-author font-weight-normal">by</span>
+                          <a class="font-roboto opinion-author debate-author" href="#">AIMEE ALLISON</a>
+                        </div>
+                        <div class="debate-avatar-container">
+                          <img src="https://d.newsweek.com/en/full/1565352/aimee-allison.png?w=150&h=150&f=ae41d00ed12c8a0c6447a34ea3da29d0" alt="aimee-allison">
+                        </div>
+                      </div>
+                </section>
+                <div class="row more_stories_container">
+                  <div class="col-sm-3 pl-0">
+                    <img class="img-fluid more-stories_img border-bottom"src="https://d.newsweek.com/en/full/1580915/store-closing.jpg" 
+                    alt="more stories">
+                  </div>
+                  <div class="col-sm-9 more_stories_title ">
+                    <a href="#">
+                      <div>
+                        <h5 class="text-dark text-decoration-none pt-2">
+                          Trump Is Empowering States—As He Should. Now It's Time to Put America to Work
+                        </h5>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="row border-top">
+                      <div class="col-sm-4 ml-0">
+                        <p class="debate_host py-2">BY <span>KELLI WARD</span></p>
+                      </div>
+                      <div class="col-sm-8 more_stories_title ">
+                        <img class="img-fluid debate_img mr-0 float-right"src="https://d.newsweek.com/en/full/1577421/hank-gilman.png" alt="the debate">
+                      </div>
+                    </div>
+                  </div>
+                <div class="row">
+                  <h1 class="text-secondary display-4 font-weight-bolder featured_heading heading">LATEST NEWS</h1>
+                </div>
+                <div class="row more_stories_container py-3 border-bottom">
+                  <div class="col-sm-3 pl-0">
+                    <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+                  </div>
+                  <div class="col-sm-9 more_stories_title">
+                    <a href="#">
+                      <div>
+                        <h5 class="text-dark text-decoration-none">
+                          Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                        </h5>
+                      </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="row more_stories_container py-3 border-bottom">
+                  <div class="col-sm-3 pl-0">
+                    <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+                  </div>
+                  <div class="col-sm-9 more_stories_title">
+                    <a href="#">
+                      <div>
+                        <h5 class="text-dark text-decoration-none">
+                          Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                        </h5>
+                      </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="row more_stories_container py-3 border-bottom">
+                  <div class="col-sm-3 pl-0">
+                    <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+                  </div>
+                  <div class="col-sm-9 more_stories_title">
+                    <a href="#">
+                      <div>
+                        <h5 class="text-dark text-decoration-none">
+                          Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                        </h5>
+                      </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="row more_stories_container py-3 border-bottom">
+                  <div class="col-sm-3 pl-0">
+                    <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+                  </div>
+                  <div class="col-sm-9 more_stories_title">
+                    <a href="#">
+                      <div>
+                        <h5 class="text-dark text-decoration-none">
+                          Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                        </h5>
+                      </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="row more_stories_container py-3 border-bottom">
+                  <div class="col-sm-3 pl-0">
+                    <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+                  </div>
+                  <div class="col-sm-9 more_stories_title">
+                    <a href="#">
+                      <div>
+                        <h5 class="text-dark text-decoration-none">
+                          Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                        </h5>
+                      </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="card border-0">
+                  <a href="#">
+                    <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
+                    <div >
+                      <p class="politics">POLITICS</p>
+                    </div>
+                    <div class='featured_title'>
+                      <h5 class=" card-title text-body text-left text-decoration-none">
+                        Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
                       </h5>
                     </div>
                   </a>
-                  </div>
-                  <div class="row border-top">
-                    <div class="col-sm-4 ml-0">
-                      <p class="debate_host py-2">BY <span>KELLI WARD</span></p>
-                    </div>
-                    <div class="col-sm-8 more_stories_title ">
-                      <img class="img-fluid debate_img mr-0 float-right"src="https://d.newsweek.com/en/full/1577421/hank-gilman.png" alt="the debate">
-                    </div>
+                  <div>
+                    <p class="feature_paragraph">Have the pollsters learned from their mistakes in the 
+                      2016 presidential election? Maybe. Maybe not.
+                    </p>
                   </div>
                 </div>
-              <div class="row">
-                <h1 class="text-secondary display-4 font-weight-bolder featured_heading heading">LATEST NEWS</h1>
-              </div>
-              <div class="row more_stories_container py-3 border-bottom">
-                <div class="col-sm-3 pl-0">
-                  <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
-                </div>
-                <div class="col-sm-9 more_stories_title">
-                  <a href="#">
-                    <div>
-                      <h5 class="text-dark text-decoration-none">
-                        Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
-                      </h5>
+                <section class="newsletter">
+                  <h2 class="d-none">title</h2>
+                  <div class="newsletter-container d-flex flex-column">
+                    <div class="d-flex align-items-center font-roboto signup-call">
+                      <span class="logo-icon-newsletter"></span>
+                        Sign up for our Newsletter
                     </div>
-                  </a>
+                      <a class="font-roboto newsletter-link" href="#">Sign Up</a> 
+                      <a class="font-roboto pu-link" href="#">Update your preferences»</a>
                   </div>
-              </div>
-              <div class="row more_stories_container py-3 border-bottom">
-                <div class="col-sm-3 pl-0">
-                  <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
-                </div>
-                <div class="col-sm-9 more_stories_title">
-                  <a href="#">
-                    <div>
-                      <h5 class="text-dark text-decoration-none">
-                        Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
-                      </h5>
+                </section>
+                <div class='col-sm-12'>
+                  <section>
+                    <div class="card border-0">
+                      <a href="#">
+                        <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
+                        <div >
+                          <p class="politics">POLITICS</p>
+                        </div>
+                        <div class='featured_title'>
+                          <h5 class=" card-title text-body text-left text-decoration-none pt-0">
+                            Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
+                          </h5>
+                        </div>
+                      </a>
+                      <div>
+                        <p class="feature_paragraph pb-3">Have the pollsters learned from their mistakes in the 
+                          2016 presidential election? Maybe. Maybe not.
+                        </p>
+                      </div>
                     </div>
-                  </a>
-                  </div>
-              </div>
-              <div class="row more_stories_container py-3 border-bottom">
-                <div class="col-sm-3 pl-0">
-                  <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+                  </section>
                 </div>
-                <div class="col-sm-9 more_stories_title">
-                  <a href="#">
-                    <div>
-                      <h5 class="text-dark text-decoration-none">
-                        Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
-                      </h5>
+                <div class='col-sm-12'>
+                  <section>
+                    <div class="card border-0">
+                      <a href="#">
+                        <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
+                        <div >
+                          <p class="politics">POLITICS</p>
+                        </div>
+                        <div class='featured_title'>
+                          <h5 class=" card-title text-body text-left text-decoration-none pt-0">
+                            Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
+                          </h5>
+                        </div>
+                      </a>
+                      <div>
+                        <p class="feature_paragraph pb-3">Have the pollsters learned from their mistakes in the 
+                          2016 presidential election? Maybe. Maybe not.
+                        </p>
+                      </div>
                     </div>
-                  </a>
-                  </div>
-              </div>
-              <div class="row more_stories_container py-3 border-bottom">
-                <div class="col-sm-3 pl-0">
-                  <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+                  </section>
                 </div>
-                <div class="col-sm-9 more_stories_title">
-                  <a href="#">
-                    <div>
-                      <h5 class="text-dark text-decoration-none">
-                        Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
-                      </h5>
+                <div class='col-sm-12'>
+                  <section>
+                    <div class="card border-0">
+                      <a href="#">
+                        <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
+                        <div >
+                          <p class="politics">POLITICS</p>
+                        </div>
+                        <div class='featured_title'>
+                          <h5 class=" card-title text-body text-left text-decoration-none pt-0">
+                            Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
+                          </h5>
+                        </div>
+                      </a>
+                      <div>
+                        <p class="feature_paragraph pb-3">Have the pollsters learned from their mistakes in the 
+                          2016 presidential election? Maybe. Maybe not.
+                        </p>
+                      </div>
                     </div>
-                  </a>
-                  </div>
-              </div>
-              <div class="row more_stories_container py-3 border-bottom">
-                <div class="col-sm-3 pl-0">
-                  <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
-                </div>
-                <div class="col-sm-9 more_stories_title">
-                  <a href="#">
-                    <div>
-                      <h5 class="text-dark text-decoration-none">
-                        Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
-                      </h5>
-                    </div>
-                  </a>
-                  </div>
-              </div>
-              <div class="card border-0">
-                <a href="#">
-                  <img class="featured_img rounded-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="featured stories">
-                  <div >
-                    <p class="politics">POLITICS</p>
-                  </div>
-                  <div class='featured_title'>
-                    <h5 class=" card-title text-body text-left text-decoration-none">
-                      Can You Trust the Pollsters to Accurately Predict Trump-Biden 2020 Matchup?
-                    </h5>
-                  </div>
-                </a>
-                <div>
-                  <p class="feature_paragraph">Have the pollsters learned from their mistakes in the 
-                    2016 presidential election? Maybe. Maybe not.
-                  </p>
+                  </section>
                 </div>
               </div>
-              <div class="row">
-                <div>
-                  <span><img src="/new_icon.PNG" alt=""></span>
-                  <p>Sign up for our Newsletter</p>
-                  <button type="button" class="btn btn-secondary btn-lg">SIGN UP ></button>
-                  <p>Update your preferences »</p>
-                </div>
+          </div>
+          
 
-              </div>
+          
 
 
-            </div>
           </div>
         </div>
+        <div class="row second_section_wrapper pb-5 border-bottom">
+          <div class="magazine_container">
+            <section class="in_the_magazine wrapper_1">
+                <div class="d-flex align-items-center justify-content-center border-bottom font-roboto signup-call py-3">
+                  <img class="newsweek-icon" src="/new_icon.PNG" alt="newsweek-logo">
+                  <h1 class="px-2">IN THE MAGAZINE</h1>
+                </div>
+                <div class="row">
+                  <article class="col-md-3 col-sm-12 pt-3">
+                    <h2 class="d-none">title</h2>
+                    <div class="img-container">
+                      <div class="full-width">
+                        <a href="#">
+                          <img class="full-width "src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg" alt="">
+                          <p class="full-width category">April 24 Issue</p>
+                        </a>
+                      </div>
+                      <a class="mag-promo-link" href="#">SEE ALL FEATURES</a>
+                    </div>
+                  </article>
+                  <article class="col-md-3 col-sm-12 pt-5 article2 full-width" >
+                    <div class="img-container">
+                      <div class="full-width">
+                        <a href="#">
+                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center py-2 ">
+                      <span class="cover-span p-1">COVER</span>
+                      <a href="#" class="mag_link font-weight-bold px-2">NEWS</a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <h2 class="mag_link2">
+                          Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care
+                        </h2>
+                      </a>
+                    </div>
+                  </article>
+                  <article class="col-md-3 col-sm-12 pt-5 article2 full-width" >
+                    <div class="img-container">
+                      <div class="full-width">
+                        <a href="#">
+                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center py-2 ">
+                      <span class="cover-span p-1">COVER</span>
+                      <a href="#" class="mag_link font-weight-bold px-2">NEWS</a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <h2 class="mag_link2">
+                          Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care
+                        </h2>
+                      </a>
+                    </div>
+                  </article>
+                  <article class="col-md-3 col-sm-12 pt-5 article2 full-width" >
+                    <div class="img-container">
+                      <div class="full-width">
+                        <a href="#">
+                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center py-2 ">
+                      <span class="cover-span p-1">COVER</span>
+                      <a href="#" class="mag_link font-weight-bold px-2">NEWS</a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <h2 class="mag_link2">
+                          Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care
+                        </h2>
+                      </a>
+                    </div>
+                  </article>
+                </div>
+                <div class="row pt-4">
+                  <article class="col-md-3 col-sm-12 pt-3">
+                    <h2 class="d-none">title</h2>
+                    <div class="img-container">
+                      <div class="full-width">
+                        <a href="#">
+                          <img class="full-width "src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg" alt="">
+                          <p class="full-width category">April 24 Issue</p>
+                        </a>
+                      </div>
+                      <a class="mag-promo-link" href="#">SEE ALL FEATURES</a>
+                    </div>
+                  </article>
+                  <article class="col-md-3 col-sm-12 pt-5 article2 full-width" >
+                    <div class="img-container">
+                      <div class="full-width">
+                        <a href="#">
+                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center py-2 ">
+                      <span class="cover-span p-1">COVER</span>
+                      <a href="#" class="mag_link font-weight-bold px-2">NEWS</a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <h2 class="mag_link2">
+                          Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care
+                        </h2>
+                      </a>
+                    </div>
+                  </article>
+                  <article class="col-md-3 col-sm-12 pt-5 article2 full-width" >
+                    <div class="img-container">
+                      <div class="full-width">
+                        <a href="#">
+                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center py-2 ">
+                      <span class="cover-span p-1">COVER</span>
+                      <a href="#" class="mag_link font-weight-bold px-2">NEWS</a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <h2 class="mag_link2">
+                          Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care
+                        </h2>
+                      </a>
+                    </div>
+                  </article>
+                  <article class="col-md-3 col-sm-12 pt-5 article2 full-width" >
+                    <div class="img-container">
+                      <div class="full-width">
+                        <a href="#">
+                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center py-2 ">
+                      <span class="cover-span p-1">COVER</span>
+                      <a href="#" class="mag_link font-weight-bold px-2">NEWS</a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <h2 class="mag_link2">
+                          Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care
+                        </h2>
+                      </a>
+                    </div>
+                  </article>
+                </div>
+            </section>
+          </div>
+          <div class="editor'spick_container">
+            <section class="in_the_magazine wrapper_1">
+                <div class="d-flex align-items-center justify-content-center border-bottom font-roboto signup-call py-3">
+                  <img class="newsweek-icon"src="/new_icon.PNG" alt="newsweek-logo">
+                  <h1 class="px-2">EDITOR'S PICK</h1>
+                </div>
+                <div class="row">
+                  <article class="col-md-3 col-sm-12 pt-3">
+                    <h2 class="d-none">title</h2>
+                    <div class="img-container">
+                      <div class="full-width">
+                        <a href="#">
+                          <img class="full-width "src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg" alt="">
+                          <p class="full-width category">April 24 Issue</p>
+                        </a>
+                      </div>
+                      <a class="mag-promo-link" href="#">SEE ALL FEATURES</a>
+                    </div>
+                  </article>
+                  <article class="col-md-3 col-sm-12 pt-5 article2 full-width" >
+                    <div class="img-container">
+                      <div class="full-width">
+                        <a href="#">
+                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center py-2 ">
+                      <span class="cover-span p-1">COVER</span>
+                      <a href="#" class="mag_link font-weight-bold px-2">NEWS</a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <h2 class="mag_link2">
+                          Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care
+                        </h2>
+                      </a>
+                    </div>
+                  </article>
+                  <article class="col-md-3 col-sm-12 pt-5 article2 full-width" >
+                    <div class="img-container">
+                      <div class="full-width">
+                        <a href="#">
+                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center py-2 ">
+                      <span class="cover-span p-1">COVER</span>
+                      <a href="#" class="mag_link font-weight-bold px-2">NEWS</a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <h2 class="mag_link2">
+                          Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care
+                        </h2>
+                      </a>
+                    </div>
+                  </article>
+                  <article class="col-md-3 col-sm-12 pt-5 article2 full-width" >
+                    <div class="img-container">
+                      <div class="full-width">
+                        <a href="#">
+                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center py-2 ">
+                      <span class="cover-span p-1">COVER</span>
+                      <a href="#" class="mag_link font-weight-bold px-2">NEWS</a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <h2 class="mag_link2">
+                          Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care
+                        </h2>
+                      </a>
+                    </div>
+                  </article>
+                </div>
+                <div class="row pt-4">
+                  <article class="col-md-3 col-sm-12 pt-3">
+                    <h2 class="d-none">title</h2>
+                    <div class="img-container">
+                      <div class="full-width">
+                        <a href="#">
+                          <img class="full-width "src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg" alt="">
+                          <p class="full-width category">April 24 Issue</p>
+                        </a>
+                      </div>
+                      <a class="mag-promo-link" href="#">SEE ALL FEATURES</a>
+                    </div>
+                  </article>
+                  <article class="col-md-3 col-sm-12 pt-5 article2 full-width" >
+                    <div class="img-container">
+                      <div class="full-width">
+                        <a href="#">
+                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center py-2 ">
+                      <span class="cover-span p-1">COVER</span>
+                      <a href="#" class="mag_link font-weight-bold px-2">NEWS</a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <h2 class="mag_link2">
+                          Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care
+                        </h2>
+                      </a>
+                    </div>
+                  </article>
+                  <article class="col-md-3 col-sm-12 pt-5 article2 full-width" >
+                    <div class="img-container">
+                      <div class="full-width">
+                        <a href="#">
+                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center py-2 ">
+                      <span class="cover-span p-1">COVER</span>
+                      <a href="#" class="mag_link font-weight-bold px-2">NEWS</a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <h2 class="mag_link2">
+                          Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care
+                        </h2>
+                      </a>
+                    </div>
+                  </article>
+                  <article class="col-md-3 col-sm-12 pt-5 article2 full-width" >
+                    <div class="img-container">
+                      <div class="full-width">
+                        <a href="#">
+                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center py-2 ">
+                      <span class="cover-span p-1">COVER</span>
+                      <a href="#" class="mag_link font-weight-bold px-2">NEWS</a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <h2 class="mag_link2">
+                          Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care
+                        </h2>
+                      </a>
+                    </div>
+                  </article>
+                </div>
+            </section>
+          </div>
+        </div>
+        <div class="row third-section-wrapper border-bottom">
+          <div class="us-container">
+            <section>
+              <div class="d-flex align-items-center justify-content-start font-roboto signup-call py-3">
+                <h1 class="us px-2 mag_link font-weight-bold">U.S.</h1>
+              </div>
+
+              <div class="row us-wrapper pb-5">
+                <article class=" col-md-4 img-container full-width">
+                  <div class="full-width">
+                    <a href="#">
+                      <img class="full-width full-height"src="https://d.newsweek.com/en/full/1582174/disney-fmaily-singalong-live-lineup.jpg" alt="">
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#">
+                      <h2 class="mag_link2">
+                        Global Economy Will Shrink by 3 Percent in 2020, IMF Forecasts
+                      </h2>
+                    </a>
+                  </div>
+                </article>
+                <article class=" col-md-4 full-width">
+                  <div class="full-width img-container">
+                    <a href="#">
+                      <img class="full-width full-height"src="https://d.newsweek.com/en/full/1582174/disney-fmaily-singalong-live-lineup.jpg" alt="">
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#">
+                      <h2 class="mag_link2">
+                        Global Economy Will Shrink by 3 Percent in 2020, IMF Forecasts
+                      </h2>
+                    </a>
+                  </div>
+                </article>
+                <div class=" col-md-4">
+                  <article class="row pb-2 border-bottom full-width">
+                    <div class=" col-md-4 pr-2 full-width ">
+                      <a href="#">
+                        <img class="full-width height"src="https://d.newsweek.com/en/full/1582174/disney-fmaily-singalong-live-lineup.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="col-md-8">
+                      <a href="#">
+                        <h2 class="mag_link2">
+                          Global Economy Will Shrink by 3 Percent in 2020, IMF Forecasts
+                        </h2>
+                      </a>
+                    </div>
+                  </article>
+                  <article class="row pb-2 border-bottom full-width">
+                    <div class=" col-md-4 pr-2 full-width ">
+                      <a href="#">
+                        <img class="full-width height"src="https://d.newsweek.com/en/full/1582174/disney-fmaily-singalong-live-lineup.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="col-md-8">
+                      <a href="#">
+                        <h2 class="mag_link2">
+                          Global Economy Will Shrink by 3 Percent in 2020, IMF Forecasts
+                        </h2>
+                      </a>
+                    </div>
+                  </article>
+                  <article class="row pb-2 full-width">
+                    <div class=" col-md-4 pr-2 full-width ">
+                      <a href="#">
+                        <img class="full-width height"src="https://d.newsweek.com/en/full/1582174/disney-fmaily-singalong-live-lineup.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="col-md-8">
+                      <a href="#">
+                        <h2 class="mag_link2">
+                          Global Economy Will Shrink by 3 Percent in 2020, IMF Forecasts
+                        </h2>
+                      </a>
+                    </div>
+                  </article>
+      
+                </div>
+              </div>
+              
+            </section>
+          </div>
+          
+        </div>
+        <div class="row fourth-section-wrapper border-bottom">
+          <section>
+            <div class="row">
+              <div class=" col-md-9 d-flex align-items-center justify-content-start font-roboto signup-call">
+                <h1 class="us px-2 mag_link font-weight-bold">SUBSCRIBE</h1>
+              </div>
+              <div class=" col-md-3 d-flex align-items-center justify-content-end font-roboto signup-call py-3">
+                <h1 class="us px-2 mag_link font-weight-bold">NEWSLETTER</h1>
+              </div>
+            </div>
+            
+            <div class="row subscribe-wrapper">
+              <article class="col-md-8 full-width sub-wrapper pr-0">
+                <div class="d-flex sub-container p-4">
+                  <div>
+                    <img class="sub-img full-width"src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg" alt="subscribe-img">
+                  </div>
+                  <div class="d-flex flex-column align-items-start px-4 py-2">
+                    <h2 class="mag_link2 py-2">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h2>
+                    <p class="py-2">All Access + Weekly Delivery.
+                      Choose A Membership That's Perfect for You!</p>
+                    <div class="py-2">
+                      <a class="top_navbar_link" href="#">
+                        <button type="button" class="subscribe_btn">SUBSCRIBE ></button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="col-md-4 full-width sub-wrapper pr-0">
+                <div class="d-flex p-4">
+                  <div>
+                    <img class="full-height full-width"src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg" alt="subscribe-img">
+                  </div>
+                  <div class="d-flex flex-column align-items-start px-4 py-2">
+                    <h2 class="mag_link2 py-2">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h2>
+                    <p class="py-2">All Access + Weekly Delivery.
+                      Choose A Membership That's Perfect for You!</p>
+                    <div class="py-2">
+                      <a class="top_navbar_link" href="#">
+                        <button type="button" class="subscribe_btn">SUBSCRIBE ></button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+          </section>
+        </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="d-flex flex-md-row align-items-md-end justify-content-between pb-3 pt-3 border-bottom">
+        <div class="d-flex flex-column flex-md-row align-items-start align-items-md-end">
+          <div class="pl-3">
+            <img class="footer-logo" src="/footer-logo.PNG" alt="footer Logo">
+          </div>
+          <div>
+            <small class="footer-copyright text-muted text-uppercase">© 2020 Newsweek</small>
+          </div>
+        </div>
+        <ul class="d-flex justify-content-around social-icons mb-0">
+          <li><a href="#"><i class="px-2 text-muted fab fa-facebook-square"></i></a></li>
+          <li><a href="#"><i class="px-2 text-muted fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="px-2 text-muted fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="px-2 text-muted fab fa-tumblr"></i></a></li>
+          <li><a href="#"><i class="px-2 text-muted fab fa-linkedin-in"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-links flex-column">
+        <div class="d-flex align-items-start align-items-md-center py-2">
+          <span class="label font-arial pr-3"><strong>Editions:</strong></span>
+          <ul class="d-flex flex-wrap footer-links-list mb-0">
+           <li><a href="#" class="text-muted border-right px-2">U.S. Edition</a></li>
+           <li><a href="#" class="text-muted border-right px-2">日本</a></li>
+           <li><a href="#" class="text-muted border-right px-2">Pakistan</a></li>
+           <li><a href="#" class="text-muted border-right px-2">Polska</a></li>
+           <li><a href="#" class="text-muted px-2">România</a></li>
+          </ul>
+        </div>
+        <ul class="d-flex flex-wrap pb-5 bottom-links">
+          <li><a href="" class="text-muted col-md-border-right pr-2">About Us</a></li>
+          <li><a href="" class="text-muted col-md-border-right px-2">Corrections</a></li>
+          <li><a href="" class="text-muted col-md-border-right px-2">Contact Us</a></li>
+          <li><a href="" class="text-muted col-md-border-right px-2">Editorial Guidelines</a></li>
+          <li><a href="" class="text-muted col-md-border-right px-2">Advertise</a></li>
+          <li><a href="" class="text-muted col-md-border-right px-2">Copyright</a></li>
+          <li><a href="" class="text-muted col-md-border-right px-2">Terms & Conditions</a></li>
+          <li><a href="" class="text-muted col-md-border-right px-2">Privacy Policy</a></li>
+          <li><a href="" class="text-muted col-md-border-right px-2">Cookie Policy</a></li>
+          <li><a href="" class="text-muted col-md-border-right px-2">Terms of Sale</a></li>
+          <li><a href="" class="text-muted col-md-border-right px-2">Archive</a></li>
+          <li><a href="" class="text-muted col-md-border-right pr-2">Announcements</a></li>
+          <li><a href="" class="text-muted px-2">Consent preferences</a></li>
+        </ul>
+
+      </div>
+    
+    </footer>
   </body>
 </html>
