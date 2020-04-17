@@ -28,59 +28,55 @@
 
     <title>newsweek-clone</title>
   </head>
-  <body class=" border-top-0 border border-light">
-  <!-- header -->
-    <header class="container-fluid">
-      <nav class=" navbar-expand-lg top-navbar sticky-top nav-1">
-          <ul class="navbar-nav mr-auto justify-content-between u1-1">
-            <div class="top-navbar-left d-flex flex-column">
-              <li class="nav-item">
-                <a class="nav-link text-white  font-weight-bold" href="#">
-                  <img class="nav-img" src="https://g.newsweek.com/img/weather/28.png" alt="weather-icon">
-                  25° Kampala District, UG >
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white font-weight-bold" href="#">
-                  Mon,Apr 13,2020
-                </a>
-              </li>
-            </div>
-            <div>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img class="newsweek-logo full-width" src="/newweek-logo.PNG" alt="newsweek">
-                </a>
-              </li>
-            </div>
-            <div class="top_navbar_item_right d-flex align-items-end">
-              <li class="nav-item">
-                <a class="nav-link text-white font-weight-bold" href="#">SIGN IN</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <button type="button" class="subscribe_btn">SUBSCRIBE ></button>
-                </a>
-              </li>
-            </div>
-          </ul>
-      </nav>
-      
-      <nav class=" bottom_navbar pr-0 pl-0 navbar navbar-expand-lg navbar-light navigation border-bottom">
-        <!-- navigation -->
+  <body>
+    <!-- header -->
+    <header class="top_bar container-fluid w-100 sticky-top">
+      <div class=" top-navbar top_bar_top justify-content-between align-items-center row py-2">
+        <div class="header_left col d-lg-flex flex-lg-column align-items-lg-start px-4">
+          <div class="align-items-center row weather justify-content-start">
+            <a href="#" class="d-none d-sm-block">
+              <div class="d-flex">
+                <i class="fas fa-sun"></i> 25°
+                <span class="d-none d-md-inline-block">Kampala District, UG ></span>
+              </div>
+            </a>
+          </div>
+          <div class="date row d-none d-lg-inline-block font-weight-normal pt-2">
+            Tue, Apr 13, 2020
+          </div>
+        </div>
+        <div class="col d-none d-lg-flex justify-content-center">
+          <a href="#">
+            <img class="newsweek-logo" src="/newweek-logo.PNG" alt="newsweek">
+          </a>
+        </div>   
+        <div class="align-items-end justify-content-end d-flex pt-4 pr-3">
+          <div>
+            <a class="text-white font-weight-bold pr-3" href="#">SIGN IN</a>
+          </div>
+          <div>
+            <a href="#">
+              <button type="button" class="subscribe_btn">SUBSCRIBE ></button>
+            </a>
+          </div>
+        </div>   
+      </div>
+    </header>
+      <!-- navigation -->
+      <nav class=" bottom_navbar navbar-expand-lg navbar-light navigation border-bottom">
         <div class=" bottom_navbar2 collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class=" d-flex flex-row align-items-center nav-list font-weight-bold text-body justify-content-between">
-            <li class="nav-item"><a class="nav-link text-body border-right" href="#">U.S</a></li>
-            <li  class="nav-item"><a class="nav-link text-body border-right"href="#">World</a></a></li>
-            <li class="nav-item"><a class="nav-link text-body border-right" href="#">Business</a></li>
-            <li class="nav-item "><a class="nav-link text-body border-right" href="#">Tech & Science</a></li>
-            <li class="nav-item"><a class="nav-link text-body border-right" href="#">Culture</a></li>
-            <li class="nav-item"><a class="nav-link text-body border-right" href="#">Newsgeek</a></li>
-            <li class="nav-item"><a class="nav-link text-body border-right" href="#">Sports</a></li>
-            <li class="nav-item"><a class="nav-link text-body border-right" href="#">Health</a></li>
-            <li class="nav-item"><a class="nav-link text-body border-right" href="#">The Debate</a></li>
-            <li class="nav-item"><a class="nav-link text-body border-right" href="#">Vantage</a></li>
-            <li class="nav-item"><a class="nav-link text-body" href="#">Weather</a></li>
+          <ul class=" d-flex flex-row align-items-center nav-list font-weight-bold text-body justify-content-around flex-nowrap">
+            <li class="nav-item"><a class="nav-link" href="#">U.S</a></li>
+            <li  class="nav-item"><a class="nav-link"href="#">World</a></a></li>
+            <li class="nav-item"><a class="nav-link "href="#">Business</a></li>
+            <li class="nav-item"><a class="nav-link"href="#">Tech & Science</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Culture</a></li>
+            <li class="nav-item"><a class="nav-link " href="#">Newsgeek</a></li>
+            <li class="nav-item"><a class="nav-link " href="#">Sports</a></li>
+            <li class="nav-item"><a class="nav-link " href="#">Health</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">The Debate</a></li>
+            <li class="nav-item"><a class="nav-link " href="#">Vantage</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Weather</a></li>
             <li  class="nav-item nav-icons noPadding text-body d-flex flex-row">
               <input class=" form-control border-0 search_input" type="search" placeholder="Search" aria-label="Search">
                 <a href="#"><i class="fa fa-search text-body search-icon" aria-hidden="true"></i></a>
@@ -88,7 +84,6 @@
           </ul>
         </div>
       </nav>
-    </header>
     <main class="container-fluid">
         <div class="container-fluid main_wrapper">
           <div class=" row first_section_wrapper">
