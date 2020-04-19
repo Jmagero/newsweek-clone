@@ -31,7 +31,7 @@
   <body>
     <!-- header -->
     <header class="top_bar container-fluid w-100 sticky-top">
-      <div class=" top-navbar top_bar_top justify-content-between align-items-center row py-2">
+      <div class=" top-navbar top_bar_top justify-content-between align-items-center row py-2 d-sm-flex justify-content-sm-between header-wrapper">
         <div class="col justify-content-center d-block d-lg-none">
           <a href="#">
             <img class="newsweek-logo-small" src="./newweek-logo.PNG" alt="newsweek">
@@ -42,7 +42,7 @@
             <a href="#" class="d-none d-sm-block">
               <div class="d-flex">
                 <i class="fas fa-sun"></i> 25°
-                <span class="d-none d-md-inline-block">Kampala District, UG ></span>
+                <span class="d-none d-md-inline-block mx-3">Kampala District, UG ></span>
               </div>
             </a>
           </div>
@@ -55,15 +55,18 @@
             <img class="newsweek-logo" src="./newweek-logo.PNG" alt="newsweek">
           </a>
         </div>   
-        <div class="align-items-end justify-content-end d-flex pt-4 pr-3">
+        <div class="align-items-center d-flex">
           <div>
             <a class="text-white font-weight-bold pr-3" href="#">SIGN IN</a>
           </div>
           <div>
             <a href="#">
-              <button type="button" class="subscribe_btn">SUBSCRIBE ></button>
+              <button type="button" class="header-subscribe_btn">SUBSCRIBE ></button>
             </a>
           </div>
+          <span class="d-block d-md-none menu-icon d-flex justify-content-center align-items-center">
+            <i class="fas fa-bars"></i>
+          </span>
         </div>   
       </div>
     </header>
@@ -92,7 +95,7 @@
     <main class="container-fluid main-wrapper">
       <div class="row first-section-wrapper">
         <div class="col-md-5 col-lg">
-          <section>
+          <section class="flex-first">
             <a  class="first-section-title" href="#">
               <h2 class="font-weight-bolder">FEATURED STORIES</h2>
             </a>

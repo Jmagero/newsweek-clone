@@ -17,6 +17,11 @@ h2{
   border: solid 2px red;
 }
 
+.header-wrapper{
+  border: solid 2px greenyellow;
+  padding: 20px 10px 15px;
+}
+
 header a{
   color: white;
   text-decoration: none;
@@ -56,6 +61,14 @@ header a{
   font-weight: 700;
   font-size: 18px;
 }
+.header-subscribe_btn{
+  background-color: #fff;
+  color:#F72210 ;
+  font-weight: bolder;
+  padding: 6px 10px;
+  font-family: "Roboto Condensed", sans-serif;
+  border: none;
+}
 .subscribe_btn{
   background-color: #F72210;
   color: #fff;
@@ -76,6 +89,7 @@ header a{
   font-size: 20px;
   width: 100%;
 } 
+
 .heading{
   padding-bottom: 11px;
 }
@@ -508,7 +522,20 @@ Extra (xl) large devices (large desktops, 1200px and up)
 */
 
 @media (min-width: 576px){
-  
+  .newsweek-logo-small{
+    max-width: 131px;
+  }
+  header{
+    max-height: 50px;
+  }
+  .menu-icon{
+    min-width: 74px;
+    min-height: 50px;
+    color: #FB9A94;
+  }
+  .fa-bars{
+    font-size: 35px;
+  }
   
 }
 @media (min-width: 768px){
@@ -516,7 +543,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
     height: 48px;
   }
   .newsweek-logo-small{
-    width: 131px;
+    max-width: 131px;
   }
 }
 
