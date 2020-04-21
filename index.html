@@ -30,23 +30,24 @@
   </head>
   <body>
     <!-- header -->
-    <header class="top_bar container-fluid w-100 sticky-top">
+    <!-- header -->
+    <header class="top_bar container-fluid w-100 sticky-top ">
       <div class=" top-navbar top_bar_top justify-content-between align-items-center row py-2 d-sm-flex justify-content-sm-between header-wrapper">
-        <div class="col justify-content-center d-block d-lg-none">
+        <div class="col justify-content-center d-block d-lg-none ">
           <a href="#">
             <img class="newsweek-logo-small" src="./newweek-logo.PNG" alt="newsweek">
           </a>
         </div> 
-        <div class="header_left col d-lg-flex flex-lg-column align-items-lg-start px-4">
-          <div class="align-items-center row weather justify-content-start">
+        <div class="header_left col d-flex flex-lg-column align-items-lg-start ">
+          <div class="row align-items-center row justify-content-start">
             <a href="#" class="d-none d-sm-block">
-              <div class="d-flex">
+              <div class="d-flex justify-content-between">
                 <i class="fas fa-sun"></i> 25°
-                <span class="d-none d-md-inline-block mx-3">Kampala District, UG ></span>
+                <span class="d-none d-md-inline-block">Kampala District, UG ></span>
               </div>
             </a>
           </div>
-          <div class="date row d-none d-lg-inline-block font-weight-normal pt-2">
+          <div class="header-date row d-none d-lg-inline-block font-weight-normal pt-2">
             Tue, Apr 13, 2020
           </div>
         </div>
@@ -55,7 +56,7 @@
             <img class="newsweek-logo" src="./newweek-logo.PNG" alt="newsweek">
           </a>
         </div>   
-        <div class="align-items-center d-flex">
+        <div class=" d-flex align-items-center">
           <div>
             <a class="text-white font-weight-bold pr-3" href="#">SIGN IN</a>
           </div>
@@ -64,45 +65,624 @@
               <button type="button" class="header-subscribe_btn">SUBSCRIBE ></button>
             </a>
           </div>
-          <span class="d-block d-md-none menu-icon d-flex justify-content-center align-items-center">
+          <span class="d-block d-lg-none menu-icon d-flex justify-content-center align-items-center">
             <i class="fas fa-bars"></i>
           </span>
         </div>   
       </div>
     </header>
-      <!-- navigation -->
-      <nav class=" nav-bar navbar-expand-lg navbar-light navigation border-bottom">
-        <div class=" collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="d-flex flex-row align-items-center nav-list font-weight-bold text-body">
-            <li class="nav-item"><a href="#">U.S</a></li>
-            <li  class="nav-item"><a href="#">World</a></a></li>
-            <li class="nav-item"><a href="#">Business</a></li>
-            <li class="nav-item"><a  href="#">Tech & Science</a></li>
-            <li class="nav-item"><a  href="#">Culture</a></li>
-            <li class="nav-item"><a  href="#">Newsgeek</a></li>
-            <li class="nav-item"><a  href="#">Sports</a></li>
-            <li class="nav-item"><a  href="#">Health</a></li>
-            <li class="nav-item"><a  href="#">The Debate</a></li>
-            <li class="nav-item"><a  href="#">Vantage</a></li>
-            <li class="nav-item"><a  href="#">Weather</a></li>
-            <li  class="nav-item nav-icons noPadding text-body d-flex flex-row">
-              <input class=" form-control border-0 search_input w-100" type="search" placeholder="Search" aria-label="Search">
-                <a href="#"><i class="fa fa-search text-body search-icon" aria-hidden="true"></i></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+
+    <nav class=" nav-bar navbar-expand-lg navbar-light navigation border-bottom">
+      <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="d-flex flex-row align-items-center nav-list font-weight-bold text-body justify-content-between">
+          <li class="nav-item"><a href="#">U.S</a></li>
+          <li  class="nav-item"><a href="#">World</a></a></li>
+          <li class="nav-item"><a href="#">Business</a></li>
+          <li class="nav-item"><a  href="#">Tech & Science</a></li>
+          <li class="nav-item"><a  href="#">Culture</a></li>
+          <li class="nav-item"><a  href="#">Newsgeek</a></li>
+          <li class="nav-item"><a  href="#">Sports</a></li>
+          <li class="nav-item"><a  href="#">Health</a></li>
+          <li class="nav-item"><a  href="#">The Debate</a></li>
+          <li class="nav-item"><a  href="#">Vantage</a></li>
+          <li class="nav-item"><a  href="#">Weather</a></li>
+          <li  class="nav-item nav-icons noPadding text-body d-flex flex-row">
+            <input class=" form-control border-0 search_input w-100" type="search" placeholder="Search" aria-label="Search">
+              <a href="#"><i class="fa fa-search text-body search-icon " aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <main class="container-fluid main-wrapper">
+      <!-- first section small screen -->
+      <section class="top-story  d-sm-block d-md-none d-lg-none">
+        <a  class="first-section-title w-100" href="#">
+          <h2 class="font-weight-bolder">TOP STORY</h2>
+        </a>
+        <article class="border-0 top-story-article">
+          <div>
+            <a href="#">
+              <img class="rounded-0 top-story-img w-100" src="https://d.newsweek.com/en/full/1581101/china-aircraft-carrier-liaoning-pacific.jpg" class="card-img-top" alt="...">
+            </a>
+            <a href="#">
+              <p class="politics">POLITICS</p>
+            </a>
+          </div>
+          <div class="article-body">
+            <a href="#">
+              <h2 class="mag_link2 article-title pt-2">
+                Chinese Carrier Sails into Pacific, Media Mock U.S. Navy's COVID-19 Woes
+              </h2>
+            </a>
+            <p class="top-story-paragraph">
+              The White House coronavirus response coordinator displayed a graph
+               that shows the mortality rates of countries around the world, 
+               and China is at the bottom with the lowest rate.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="featured-stories d-sm-block d-md-none d-lg-none border-bottom">
+        <a  class="first-section-title w-100" href="#">
+          <h2 class="font-weight-bolder">FEATURED STORIES</h2>
+        </a>
+        <article class="border-0 featured-articles">
+          <div>
+            <a href="#">
+              <img class="rounded-0 w-100 " src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
+            </a>
+            <a href="#">
+              <p class="politics">POLITICS</p>
+            </a>
+          </div>
+          <div class="article-body">
+            <a href="#">
+              <h2 class="mag_link2 article-title pt-3">
+                Wuhan Doctor Who First Raised Coronavirus Alarm Defends China's Secrecy
+              </h2>
+            </a>
+            <p class="card-text">
+              Zhang Jixian told a state-backed television channel that she 
+              did not expect the COVID-19 outbreak to be so infectious and
+               to have mutated into a crippling pandemic.
+            </p>
+          </div>
+        </article>
+        <article class="border-0 featured-articles">
+          <div>
+            <a href="#">
+              <img class="rounded-0 w-100" src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
+            </a>
+            <a href="#">
+              <p class="politics">POLITICS</p>
+            </a>
+          </div>
+          <div class="article-body">
+            <a href="#">
+              <h2 class="mag_link2 article-title pt-3">
+                Wuhan Doctor Who First Raised Coronavirus Alarm Defends China's Secrecy
+              </h2>
+            </a>
+            <p class="card-text">
+              Zhang Jixian told a state-backed television channel that she 
+              did not expect the COVID-19 outbreak to be so infectious and
+               to have mutated into a crippling pandemic.
+            </p>
+          </div>
+        </article>
+        <article class="border-0 featured-articles">
+          <div>
+            <a href="#">
+              <img class="rounded-0 w-100" src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
+            </a>
+            <a href="#">
+              <p class="politics">POLITICS</p>
+            </a>
+          </div>
+          <div class="article-body">
+            <a href="#">
+              <h2 class="mag_link2 article-title pt-3">
+                Wuhan Doctor Who First Raised Coronavirus Alarm Defends China's Secrecy
+              </h2>
+            </a>
+            <p class="card-text">
+              Zhang Jixian told a state-backed television channel that she 
+              did not expect the COVID-19 outbreak to be so infectious and
+               to have mutated into a crippling pandemic.
+            </p>
+          </div>
+        </article>
+        <article class="border-0 featured-articles">
+          <div>
+            <a href="#">
+              <img class="rounded-0 w-100" src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
+            </a>
+            <a href="#">
+              <p class="politics">POLITICS</p>
+            </a>
+          </div>
+          <div class="article-body">
+            <a href="#">
+              <h2 class="mag_link2 article-title pt-3">
+                Wuhan Doctor Who First Raised Coronavirus Alarm Defends China's Secrecy
+              </h2>
+            </a>
+            <p class="card-text">
+              Zhang Jixian told a state-backed television channel that she 
+              did not expect the COVID-19 outbreak to be so infectious and
+               to have mutated into a crippling pandemic.
+            </p>
+          </div>
+        </article>
+        <article class="border-0 featured-articles">
+          <div>
+            <a href="#">
+              <img class="rounded-0 w-100" src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
+            </a>
+            <a href="#">
+              <p class="politics">POLITICS</p>
+            </a>
+          </div>
+          <div class="article-body">
+            <a href="#">
+              <h2 class="mag_link2 article-title pt-3">
+                Wuhan Doctor Who First Raised Coronavirus Alarm Defends China's Secrecy
+              </h2>
+            </a>
+            <p class="card-text">
+              Zhang Jixian told a state-backed television channel that she 
+              did not expect the COVID-19 outbreak to be so infectious and
+               to have mutated into a crippling pandemic.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section class="d-sm-block d-md-none d-lg-none pt-3">
+        <a  class="first-section-title w-100" href="#">
+          <h2 class="font-weight-bolder ">OPINION</h2>
+        </a>
+        <article class="d-flex border-bottom opinion-article">
+          <div class="justify-content-start">
+            <img class="opinin_img"src="https://d.newsweek.com/en/full/1577421/hank-gilman.png" alt="more stories">
+          </div>
+          <div class="d-flex flex-column ml-3">
+            <div>
+              <a href="#">
+                <h4 class="opinion-stories-title">
+                  Ben Bernanke, Video Star…Starbucks Rescue…Pro Sports in Limbo…and Lady Gaga
+                </h4>
+              </a>
+            </div>  
+            <div class="article-author">
+              <p class="opinion_author mt-1">BY HANK GILMAN</p>
+            </div>
+          </div>
+        </article>
+        <article class="d-flex border-bottom opinion-article py-2">
+          <div class="justify-content-start">
+            <img class="opinin_img"src="https://d.newsweek.com/en/full/1577421/hank-gilman.png" alt="more stories">
+          </div>
+          <div class="d-flex flex-column ml-3">
+            <div>
+              <a href="#">
+                <h4 class="opinion-stories-title">
+                  Ben Bernanke, Video Star…Starbucks Rescue…Pro Sports in Limbo…and Lady Gaga
+                </h4>
+              </a>
+            </div>  
+            <div class="article-author">
+              <p class="opinion_author mt-1">BY HANK GILMAN</p>
+            </div>
+          </div>
+        </article>
+        <article class="d-flex border-bottom opinion-article py-2">
+          <div class="justify-content-start">
+            <img class="opinin_img"src="https://d.newsweek.com/en/full/1577421/hank-gilman.png" alt="more stories">
+          </div>
+          <div class="d-flex flex-column ml-3">
+            <div>
+              <a href="#">
+                <h4 class="opinion-stories-title">
+                  Ben Bernanke, Video Star…Starbucks Rescue…Pro Sports in Limbo…and Lady Gaga
+                </h4>
+              </a>
+            </div>  
+            <div class="article-author">
+              <p class="opinion_author mt-1">BY HANK GILMAN</p>
+            </div>
+          </div>
+        </article>
+        <article class="d-flex border-bottom opinion-article pt-2 pb-5">
+          <div class="justify-content-start">
+            <img class="opinin_img"src="https://d.newsweek.com/en/full/1577421/hank-gilman.png" alt="more stories">
+          </div>
+          <div class="d-flex flex-column ml-3">
+            <div>
+              <a href="#">
+                <h4 class="opinion-stories-title">
+                  Ben Bernanke, Video Star…Starbucks Rescue…Pro Sports in Limbo…and Lady Gaga
+                </h4>
+              </a>
+            </div>  
+            <div class="article-author">
+              <p class="opinion_author mt-1">BY HANK GILMAN</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="d-sm-block d-md-none d-lg-none">
+        <a  class="first-section-title w-100" href="#">
+          <h2 class="font-weight-bolder debate-heading">DEBATE</h2>
+        </a>
+        <div class="d-flex align-items-center w-100 debate-guest">
+          <div>
+            <a href="#">
+              <img  src="https://d.newsweek.com/en/full/1575781/joe-biden.jpg?w=95&h=95&f=326727fa24be15336b6173ba3187d344" alt="Joe Biden">
+            </a>
+          </div>
+          <div class="ml-3 debate-link-container">
+            <a class ="story-link opinion-link opinion-stories-title" href="#">Biden's Running Mate Needs to Win Him an Entire State, Not Just a Constituency</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center debate-author-container">
+          <div>
+            <div class="debate-line">
+              <hr class="light w-100 mb-0">
+              <hr class="light w-100 mt-1">
+            </div>
+            <span class="font-roboto font-weight-normal">BY</span>
+            <a class="font-roboto debate-author" href="#">PETER ROFF</a>
+          </div>
+          <div class="debate-avatar-container">
+            <img class="opinin_img" src="https://d.newsweek.com/en/full/1528785/roff-new.png?w=150&h=150&f=0992b2cf5c54139a019181659687bf9a" alt="roff new">
+          </div>
+        </div>
+        <div class="debate-VS text-center font-roboto">VS</div>
+        <div class="d-flex align-items-center w-100 debate-guest2">
+          <div>
+            <a href="#">
+              <img  src="https://d.newsweek.com/en/full/1575781/joe-biden.jpg?w=95&h=95&f=326727fa24be15336b6173ba3187d344" alt="Joe Biden">
+            </a>
+          </div>
+          <div class="ml-3 debate-link-container">
+            <a class ="story-link opinion-link opinion-stories-title" href="#">Biden's Running Mate Needs to Win Him an Entire State, Not Just a Constituency</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center debate-author-container pb-5">
+          <div>
+            <div class="debate-line">
+              <hr class="light w-100 mb-0">
+              <hr class="light w-100 mt-1">
+            </div>
+            <span class="font-roboto font-weight-normal">BY</span>
+            <a class="font-roboto debate-author" href="#">PETER ROFF</a>
+          </div>
+          <div class="debate-avatar-container">
+            <img class="opinin_img" src="https://d.newsweek.com/en/full/1528785/roff-new.png?w=150&h=150&f=0992b2cf5c54139a019181659687bf9a" alt="roff new">
+          </div>
+        </div>
+      </section>
+
+      <div class="d-sm-block d-md-none d-lg-none">
+        <article class="card rounded-0">
+          <div>
+            <img class="rounded-0 w-100 border-0 border-top-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="President Trump">
+            <a href="#">
+              <p class="politics">POLITICS</p>
+            </a>
+          </div>
+          <div class="card-body">
+            <a href="#">
+              <h2 class="mag_link2 article-title pt-3">
+                COVID-19 Linked to Changes to the Brains of Some Patients
+              </h2>
+            </a>
+            <p class="card-text">
+              Have the pollsters learned from their mistakes in the 
+              2016 presidential election? Maybe. Maybe not
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <div class="d-sm-block d-md-none d-lg-none my-3">
+        <article class="card rounded-0">
+          <div>
+            <img class="rounded-0 w-100 border-0 border-top-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="President Trump">
+            <a href="#">
+              <p class="politics">POLITICS</p>
+            </a>
+          </div>
+          <div class="card-body">
+            <a href="#">
+              <h2 class="mag_link2 article-title pt-3">
+                COVID-19 Linked to Changes to the Brains of Some Patients
+              </h2>
+            </a>
+            <p class="card-text">
+              Have the pollsters learned from their mistakes in the 
+              2016 presidential election? Maybe. Maybe not
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <div class="d-sm-block d-md-none d-lg-none my-3">
+        <article class="card rounded-0">
+          <div>
+            <img class="rounded-0 w-100 border-0 border-top-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="President Trump">
+            <a href="#">
+              <p class="politics">POLITICS</p>
+            </a>
+          </div>
+          <div class="card-body">
+            <a href="#">
+              <h2 class="mag_link2 article-title pt-3">
+                COVID-19 Linked to Changes to the Brains of Some Patients
+              </h2>
+            </a>
+            <p class="card-text">
+              Have the pollsters learned from their mistakes in the 
+              2016 presidential election? Maybe. Maybe not
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <section class="more-stories d-md-none d-lg-none mt-5">
+        <a  class="first-section-title w-100" href="#">
+          <h2 class="font-weight-bolder border-bottom">MORE STORIES</h2>
+        </a>
+        <article class="more-stories-article d-flex border-bottom">
+          <div class=" justify-content-end">
+            <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+          </div>
+          <div class="d-flex flex-column ml-3">
+            <div>
+              <a href="#">
+                <h4 class=" more-stories-title">
+                  Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                </h4>
+              </a>
+            </div>  
+            <div>
+              <p class=" more-stories-paragraph text-body">
+                "We all have to help each other," Matthew Fermin, 
+                owner of East Harlem restaurant Santiago's 
+                Beer Garden, told Newsweek.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="more-stories-article d-flex border-bottom">
+          <div class=" justify-content-end">
+            <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+          </div>
+          <div class="d-flex flex-column ml-3">
+            <div>
+              <a href="#">
+                <h4 class=" more-stories-title">
+                  Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                </h4>
+              </a>
+            </div>  
+            <div>
+              <p class=" more-stories-paragraph text-body">
+                "We all have to help each other," Matthew Fermin, 
+                owner of East Harlem restaurant Santiago's 
+                Beer Garden, told Newsweek.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="more-stories-article d-flex border-bottom">
+          <div class=" justify-content-end">
+            <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+          </div>
+          <div class="d-flex flex-column ml-3">
+            <div>
+              <a href="#">
+                <h4 class=" more-stories-title">
+                  Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                </h4>
+              </a>
+            </div>  
+            <div>
+              <p class=" more-stories-paragraph text-body">
+                "We all have to help each other," Matthew Fermin, 
+                owner of East Harlem restaurant Santiago's 
+                Beer Garden, told Newsweek.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="more-stories-article d-flex border-bottom">
+          <div class=" justify-content-end">
+            <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+          </div>
+          <div class="d-flex flex-column ml-3">
+            <div>
+              <a href="#">
+                <h4 class=" more-stories-title">
+                  Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                </h4>
+              </a>
+            </div>  
+            <div>
+              <p class=" more-stories-paragraph text-body">
+                "We all have to help each other," Matthew Fermin, 
+                owner of East Harlem restaurant Santiago's 
+                Beer Garden, told Newsweek.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="more-stories-article d-flex border-bottom">
+          <div class=" justify-content-end">
+            <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+          </div>
+          <div class="d-flex flex-column ml-3">
+            <div>
+              <a href="#">
+                <h4 class=" more-stories-title">
+                  Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                </h4>
+              </a>
+            </div>  
+            <div>
+              <p class=" more-stories-paragraph text-body">
+                "We all have to help each other," Matthew Fermin, 
+                owner of East Harlem restaurant Santiago's 
+                Beer Garden, told Newsweek.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="more-stories-article d-flex border-bottom">
+          <div class=" justify-content-end">
+            <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+          </div>
+          <div class="d-flex flex-column ml-3">
+            <div>
+              <a href="#">
+                <h4 class=" more-stories-title">
+                  Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                </h4>
+              </a>
+            </div>  
+            <div>
+              <p class=" more-stories-paragraph text-body">
+                "We all have to help each other," Matthew Fermin, 
+                owner of East Harlem restaurant Santiago's 
+                Beer Garden, told Newsweek.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="more-stories-article d-flex border-bottom">
+          <div class=" justify-content-end">
+            <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+          </div>
+          <div class="d-flex flex-column ml-3">
+            <div>
+              <a href="#">
+                <h4 class=" more-stories-title">
+                  Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                </h4>
+              </a>
+            </div>  
+            <div>
+              <p class=" more-stories-paragraph text-body">
+                "We all have to help each other," Matthew Fermin, 
+                owner of East Harlem restaurant Santiago's 
+                Beer Garden, told Newsweek.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="more-stories-article d-flex border-bottom">
+          <div class=" justify-content-end">
+            <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+          </div>
+          <div class="d-flex flex-column ml-3">
+            <div>
+              <a href="#">
+                <h4 class=" more-stories-title">
+                  Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                </h4>
+              </a>
+            </div>  
+            <div>
+              <p class=" more-stories-paragraph text-body">
+                "We all have to help each other," Matthew Fermin, 
+                owner of East Harlem restaurant Santiago's 
+                Beer Garden, told Newsweek.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="more-stories-article d-flex border-bottom">
+          <div class=" justify-content-end">
+            <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+          </div>
+          <div class="d-flex flex-column ml-3">
+            <div>
+              <a href="#">
+                <h4 class=" more-stories-title">
+                  Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                </h4>
+              </a>
+            </div>  
+            <div>
+              <p class=" more-stories-paragraph text-body">
+                "We all have to help each other," Matthew Fermin, 
+                owner of East Harlem restaurant Santiago's 
+                Beer Garden, told Newsweek.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="more-stories-article d-flex border-bottom">
+          <div class=" justify-content-end">
+            <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+          </div>
+          <div class="d-flex flex-column ml-3">
+            <div>
+              <a href="#">
+                <h4 class=" more-stories-title">
+                  Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                </h4>
+              </a>
+            </div>  
+            <div>
+              <p class=" more-stories-paragraph text-body">
+                "We all have to help each other," Matthew Fermin, 
+                owner of East Harlem restaurant Santiago's 
+                Beer Garden, told Newsweek.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="more-stories-article d-flex">
+          <div class=" justify-content-end">
+            <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+          </div>
+          <div class="d-flex flex-column ml-3">
+            <div>
+              <a href="#">
+                <h4 class=" more-stories-title">
+                  Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                </h4>
+              </a>
+            </div>  
+            <div>
+              <p class=" more-stories-paragraph text-body">
+                "We all have to help each other," Matthew Fermin, 
+                owner of East Harlem restaurant Santiago's 
+                Beer Garden, told Newsweek.
+              </p>
+            </div>
+          </div>
+        </article>
+        
+
+      </section>
+
+      <!-- first section on large screen -->
+
       <div class="row first-section-wrapper">
-        <div class="col-md-5 col-lg">
-          <section class="flex-first">
-            <a  class="first-section-title" href="#">
+        <div class="col-md-5 col-lg ">
+          <section class="d-sm-none d-md-block d-lg-block">
+            <a  class="first-section-title w-100" href="#">
               <h2 class="font-weight-bolder">FEATURED STORIES</h2>
             </a>
             <article class="border-0 featured-articles">
               <div>
                 <a href="#">
-                  <img class="rounded-0 img-100 " src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
+                  <img class="rounded-0 w-100" src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
                 </a>
                 <a href="#">
                   <p class="politics">POLITICS</p>
@@ -111,19 +691,20 @@
               <div class="article-body">
                 <a href="#">
                   <h2 class="mag_link2 article-title pt-3">
-                    COVID-19 Linked to Changes to the Brains of Some Patients
+                    Wuhan Doctor Who First Raised Coronavirus Alarm Defends China's Secrecy
                   </h2>
                 </a>
                 <p class="card-text">
-                  Have the pollsters learned from their mistakes in the 
-                  2016 presidential election? Maybe. Maybe not
+                  Zhang Jixian told a state-backed television channel that she 
+                  did not expect the COVID-19 outbreak to be so infectious and
+                   to have mutated into a crippling pandemic.
                 </p>
               </div>
             </article>
             <article class="border-0 featured-articles">
               <div>
                 <a href="#">
-                  <img class="rounded-0 img-100 " src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
+                  <img class="rounded-0 w-100" src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
                 </a>
                 <a href="#">
                   <p class="politics">POLITICS</p>
@@ -132,19 +713,20 @@
               <div class="article-body">
                 <a href="#">
                   <h2 class="mag_link2 article-title pt-3">
-                    COVID-19 Linked to Changes to the Brains of Some Patients
+                    Wuhan Doctor Who First Raised Coronavirus Alarm Defends China's Secrecy
                   </h2>
                 </a>
                 <p class="card-text">
-                  Have the pollsters learned from their mistakes in the 
-                  2016 presidential election? Maybe. Maybe not
+                  Zhang Jixian told a state-backed television channel that she 
+                  did not expect the COVID-19 outbreak to be so infectious and
+                   to have mutated into a crippling pandemic.
                 </p>
               </div>
             </article>
             <article class="border-0 featured-articles">
               <div>
                 <a href="#">
-                  <img class="rounded-0 img-100 " src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
+                  <img class="rounded-0 w-100" src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
                 </a>
                 <a href="#">
                   <p class="politics">POLITICS</p>
@@ -153,19 +735,20 @@
               <div class="article-body">
                 <a href="#">
                   <h2 class="mag_link2 article-title pt-3">
-                    COVID-19 Linked to Changes to the Brains of Some Patients
+                    Wuhan Doctor Who First Raised Coronavirus Alarm Defends China's Secrecy
                   </h2>
                 </a>
                 <p class="card-text">
-                  Have the pollsters learned from their mistakes in the 
-                  2016 presidential election? Maybe. Maybe not
+                  Zhang Jixian told a state-backed television channel that she 
+                  did not expect the COVID-19 outbreak to be so infectious and
+                   to have mutated into a crippling pandemic.
                 </p>
               </div>
             </article>
             <article class="border-0 featured-articles">
               <div>
                 <a href="#">
-                  <img class="rounded-0 img-100 " src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
+                  <img class="rounded-0 w-100 " src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
                 </a>
                 <a href="#">
                   <p class="politics">POLITICS</p>
@@ -174,19 +757,20 @@
               <div class="article-body">
                 <a href="#">
                   <h2 class="mag_link2 article-title pt-3">
-                    COVID-19 Linked to Changes to the Brains of Some Patients
+                    Wuhan Doctor Who First Raised Coronavirus Alarm Defends China's Secrecy
                   </h2>
                 </a>
                 <p class="card-text">
-                  Have the pollsters learned from their mistakes in the 
-                  2016 presidential election? Maybe. Maybe not
+                  Zhang Jixian told a state-backed television channel that she 
+                  did not expect the COVID-19 outbreak to be so infectious and
+                   to have mutated into a crippling pandemic.
                 </p>
               </div>
             </article>
             <article class="border-0 featured-articles">
               <div>
                 <a href="#">
-                  <img class="rounded-0 img-100 " src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
+                  <img class="rounded-0 w-100 " src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
                 </a>
                 <a href="#">
                   <p class="politics">POLITICS</p>
@@ -195,19 +779,20 @@
               <div class="article-body">
                 <a href="#">
                   <h2 class="mag_link2 article-title pt-3">
-                    COVID-19 Linked to Changes to the Brains of Some Patients
+                    Wuhan Doctor Who First Raised Coronavirus Alarm Defends China's Secrecy
                   </h2>
                 </a>
                 <p class="card-text">
-                  Have the pollsters learned from their mistakes in the 
-                  2016 presidential election? Maybe. Maybe not
+                  Zhang Jixian told a state-backed television channel that she 
+                  did not expect the COVID-19 outbreak to be so infectious and
+                   to have mutated into a crippling pandemic.
                 </p>
               </div>
             </article>
-            <article class="border-0 featured-articles">
+            <article class="border-0 featured-articles ">
               <div>
                 <a href="#">
-                  <img class="rounded-0 img-100 " src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
+                  <img class="rounded-0 w-100 " src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
                 </a>
                 <a href="#">
                   <p class="politics">POLITICS</p>
@@ -216,19 +801,20 @@
               <div class="article-body">
                 <a href="#">
                   <h2 class="mag_link2 article-title pt-3">
-                    COVID-19 Linked to Changes to the Brains of Some Patients
+                    Wuhan Doctor Who First Raised Coronavirus Alarm Defends China's Secrecy
                   </h2>
                 </a>
                 <p class="card-text">
-                  Have the pollsters learned from their mistakes in the 
-                  2016 presidential election? Maybe. Maybe not
+                  Zhang Jixian told a state-backed television channel that she 
+                  did not expect the COVID-19 outbreak to be so infectious and
+                   to have mutated into a crippling pandemic.
                 </p>
               </div>
             </article>
-            <article class="border-0 featured-articles">
+            <article class="border-0 featured-articles ">
               <div>
                 <a href="#">
-                  <img class="rounded-0 img-100 " src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
+                  <img class="rounded-0 w-100" src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
                 </a>
                 <a href="#">
                   <p class="politics">POLITICS</p>
@@ -237,19 +823,20 @@
               <div class="article-body">
                 <a href="#">
                   <h2 class="mag_link2 article-title pt-3">
-                    COVID-19 Linked to Changes to the Brains of Some Patients
+                    Wuhan Doctor Who First Raised Coronavirus Alarm Defends China's Secrecy
                   </h2>
                 </a>
                 <p class="card-text">
-                  Have the pollsters learned from their mistakes in the 
-                  2016 presidential election? Maybe. Maybe not
+                  Zhang Jixian told a state-backed television channel that she 
+                  did not expect the COVID-19 outbreak to be so infectious and
+                   to have mutated into a crippling pandemic.
                 </p>
               </div>
             </article>
-            <article class="border-0 featured-articles">
+            <article class="border-0 featured-articles ">
               <div>
                 <a href="#">
-                  <img class="rounded-0 img-100 " src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
+                  <img class="rounded-0 w-100 " src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="...">
                 </a>
                 <a href="#">
                   <p class="politics">POLITICS</p>
@@ -258,27 +845,29 @@
               <div class="article-body">
                 <a href="#">
                   <h2 class="mag_link2 article-title pt-3">
-                    COVID-19 Linked to Changes to the Brains of Some Patients
+                    Wuhan Doctor Who First Raised Coronavirus Alarm Defends China's Secrecy
                   </h2>
                 </a>
                 <p class="card-text">
-                  Have the pollsters learned from their mistakes in the 
-                  2016 presidential election? Maybe. Maybe not
+                  Zhang Jixian told a state-backed television channel that she 
+                  did not expect the COVID-19 outbreak to be so infectious and
+                   to have mutated into a crippling pandemic.
                 </p>
               </div>
             </article>
+          
           </section>
         </div>
 
         <div class="col-md-7 col-lg-5">
-          <section class="top-story">
-            <a  class="first-section-title" href="#">
+          <section class="top-story d-sm-none d-md-block d-lg-block">
+            <a  class="first-section-title w-100" href="#">
               <h2 class="font-weight-bolder">TOP STORY</h2>
             </a>
             <article class="border-0 top-story-article">
               <div>
                 <a href="#">
-                  <img class="rounded-0 top-story-img" src="https://d.newsweek.com/en/full/1581101/china-aircraft-carrier-liaoning-pacific.jpg" class="card-img-top" alt="...">
+                  <img class="rounded-0 top-story-img w-100" src="https://d.newsweek.com/en/full/1581101/china-aircraft-carrier-liaoning-pacific.jpg" class="card-img-top" alt="...">
                 </a>
                 <a href="#">
                   <p class="politics">POLITICS</p>
@@ -298,15 +887,36 @@
               </div>
             </article>
           </section>
+          <article class="more-stories-article d-flex border-top pb-5 d-sm-none d-md-block d-lg-block">
+            <div class=" justify-content-end">
+              <img class="img-fluid more-stories_img"src="https://d.newsweek.com/en/full/1581093/coronavirus-america-recoveries-40000-people.jpg" alt="more stories">
+            </div>
+            <div class="d-flex flex-column ml-3">
+              <div>
+                <a href="#">
+                  <h4 class=" more-stories-title">
+                    Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis
+                  </h4>
+                </a>
+              </div>  
+              <div>
+                <p class=" more-stories-paragraph text-body">
+                  "We all have to help each other," Matthew Fermin, 
+                  owner of East Harlem restaurant Santiago's 
+                  Beer Garden, told Newsweek.
+                </p>
+              </div>
+            </div>
+          </article>
           <section class="heros-pandemic">
-            <a  class="first-section-title" href="#">
+            <a  class="first-section-title w-100" href="#">
               <h2 class="font-weight-bolder">HEROES OF THE PANDEMIC</h2>
             </a>
             <div class="row heros-articles">
-              <article class="col-sm-12 col-md-12 col-lg-4 img-100 border-0 d-flex flex-column">
+              <article class="col-sm-12 col-md-4 col-lg-4 w-100 border-0 d-flex flex-column">
                   <div>
                     <a href="#">
-                      <img class=" rounded-0 hero-img" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" class="card-img-top" alt="...">
+                      <img class=" rounded-0  w-100" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" class="card-img-top" alt="...">
                     </a>
                     <a href="#">
                       <p class=" politics hero_stripe">Pandemic Heroes</p>
@@ -324,10 +934,10 @@
                     </p>
                   </div>
               </article>
-              <article class="col-sm-12 col-md-12 col-lg-4 img-100 border-0 d-flex flex-column">
+              <article class="col-sm-12 col-md-4 col-lg-4 w-100 border-0 d-flex flex-column">
                 <div>
                   <a href="#">
-                    <img class=" rounded-0 hero-img" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" class="card-img-top" alt="...">
+                    <img class=" rounded-0 hero-img w-100" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" class="card-img-top" alt="...">
                   </a>
                   <a href="#">
                     <p class=" politics hero_stripe">Pandemic Heroes</p>
@@ -345,10 +955,10 @@
                   </p>
                 </div>
               </article>
-              <article class="col-sm-12 col-md-12 col-lg-4 img-100 border-0 d-flex flex-column">
+              <article class="col-sm-12 col-md-4 col-lg-4 w-100 border-0 d-flex flex-column">
                 <div>
                   <a href="#">
-                    <img class=" rounded-0 hero-img" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" class="card-img-top" alt="...">
+                    <img class=" rounded-0 hero-img w-100" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" class="card-img-top" alt="...">
                   </a>
                   <a href="#">
                     <p class=" politics hero_stripe">Pandemic Heroes</p>
@@ -369,14 +979,14 @@
             </div>
           </section>
           <section class="heros-pandemic">
-            <a  class="first-section-title" href="#">
+            <a  class="first-section-title w-100" href="#">
               <h2 class="font-weight-bolder">HEROES OF THE PANDEMIC</h2>
             </a>
             <div class="row heros-articles">
-              <article class="col-sm-12 col-md-12 col-lg-4 img-100 border-0 d-flex flex-column">
+              <article class="col-sm-12 col-md-4 col-lg-4 w-100 border-0 d-flex flex-column">
                   <div>
                     <a href="#">
-                      <img class=" rounded-0 hero-img" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" class="card-img-top" alt="...">
+                      <img class=" rounded-0 hero-img w-100" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" class="card-img-top" alt="...">
                     </a>
                     <a href="#">
                       <p class=" politics hero_stripe">Pandemic Heroes</p>
@@ -394,10 +1004,10 @@
                     </p>
                   </div>
               </article>
-              <article class="col-sm-12 col-md-12 col-lg-4 img-100 border-0 d-flex flex-column">
+              <article class="col-sm-12 col-md-4 col-lg-4 w-100 border-0 d-flex flex-column">
                 <div>
                   <a href="#">
-                    <img class=" rounded-0 hero-img" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" class="card-img-top" alt="...">
+                    <img class=" rounded-0 hero-img w-100" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" class="card-img-top" alt="...">
                   </a>
                   <a href="#">
                     <p class=" politics hero_stripe">Pandemic Heroes</p>
@@ -415,10 +1025,10 @@
                   </p>
                 </div>
               </article>
-              <article class="col-sm-12 col-md-12 col-lg-4 img-100 border-0 d-flex flex-column">
+              <article class="col-sm-12 col-md-4 col-lg-4 w-100 border-0 d-flex flex-column">
                 <div>
                   <a href="#">
-                    <img class=" rounded-0 hero-img" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" class="card-img-top" alt="...">
+                    <img class=" rounded-0 hero-img w-100" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg" class="card-img-top" alt="...">
                   </a>
                   <a href="#">
                     <p class=" politics hero_stripe">Pandemic Heroes</p>
@@ -438,8 +1048,8 @@
               </article>  
             </div>
           </section>
-          <section class="more-stories">
-            <a  class="first-section-title" href="#">
+          <section class="more-stories d-sm-none d-md-block d-lg-block">
+            <a  class="first-section-title w-100" href="#">
               <h2 class="font-weight-bolder border-bottom">MORE STORIES</h2>
             </a>
             <article class="more-stories-article d-flex border-bottom">
@@ -679,8 +1289,8 @@
         </div>
 
         <div class="col-md-12 col-lg">
-          <section>
-            <a  class="first-section-title" href="#">
+          <section class="d-sm-none d-md-block d-lg-block">
+            <a  class="first-section-title w-100" href="#">
               <h2 class="font-weight-bolder">OPINION</h2>
             </a>
             <article class="d-flex border-bottom opinion-article">
@@ -700,7 +1310,7 @@
                 </div>
               </div>
             </article>
-            <article class="d-flex border-bottom opinion-article">
+            <article class="d-flex border-bottom opinion-article py-2">
               <div class="justify-content-start">
                 <img class="opinin_img"src="https://d.newsweek.com/en/full/1577421/hank-gilman.png" alt="more stories">
               </div>
@@ -717,7 +1327,7 @@
                 </div>
               </div>
             </article>
-            <article class="d-flex border-bottom opinion-article">
+            <article class="d-flex border-bottom opinion-article py-2">
               <div class="justify-content-start">
                 <img class="opinin_img"src="https://d.newsweek.com/en/full/1577421/hank-gilman.png" alt="more stories">
               </div>
@@ -734,7 +1344,7 @@
                 </div>
               </div>
             </article>
-            <article class="d-flex border-bottom opinion-article">
+            <article class="d-flex border-bottom opinion-article pt-2 pb-5">
               <div class="justify-content-start">
                 <img class="opinin_img"src="https://d.newsweek.com/en/full/1577421/hank-gilman.png" alt="more stories">
               </div>
@@ -753,11 +1363,11 @@
             </article>
           </section>
 
-          <section>
-            <a  class="first-section-title" href="#">
+          <section class="d-sm-none d-md-block d-lg-block">
+            <a  class="first-section-title w-100" href="#">
               <h2 class="font-weight-bolder debate-heading">DEBATE</h2>
             </a>
-            <div class="d-flex align-items-center full-width debate-guest">
+            <div class="d-flex align-items-center w-100 debate-guest">
               <div>
                 <a href="#">
                   <img  src="https://d.newsweek.com/en/full/1575781/joe-biden.jpg?w=95&h=95&f=326727fa24be15336b6173ba3187d344" alt="Joe Biden">
@@ -769,6 +1379,10 @@
             </div>
             <div class="d-flex justify-content-between align-items-center debate-author-container">
               <div>
+                <div class="debate-line">
+                  <hr class="light w-100 mb-0">
+                  <hr class="light w-100 mt-1">
+                </div>
                 <span class="font-roboto font-weight-normal">BY</span>
                 <a class="font-roboto debate-author" href="#">PETER ROFF</a>
               </div>
@@ -777,7 +1391,7 @@
               </div>
             </div>
             <div class="debate-VS text-center font-roboto">VS</div>
-            <div class="d-flex align-items-center full-width debate-guest2">
+            <div class="d-flex align-items-center w-100 debate-guest2">
               <div>
                 <a href="#">
                   <img  src="https://d.newsweek.com/en/full/1575781/joe-biden.jpg?w=95&h=95&f=326727fa24be15336b6173ba3187d344" alt="Joe Biden">
@@ -787,8 +1401,12 @@
                 <a class ="story-link opinion-link opinion-stories-title" href="#">Biden's Running Mate Needs to Win Him an Entire State, Not Just a Constituency</a>
               </div>
             </div>
-            <div class="d-flex justify-content-between align-items-center debate-author-container">
+            <div class="d-flex justify-content-between align-items-center debate-author-container pb-5">
               <div>
+                <div class="debate-line">
+                  <hr class="light w-100 mb-0">
+                  <hr class="light w-100 mt-1">
+                </div>
                 <span class="font-roboto font-weight-normal">BY</span>
                 <a class="font-roboto debate-author" href="#">PETER ROFF</a>
               </div>
@@ -796,11 +1414,10 @@
                 <img class="opinin_img" src="https://d.newsweek.com/en/full/1528785/roff-new.png?w=150&h=150&f=0992b2cf5c54139a019181659687bf9a" alt="roff new">
               </div>
             </div>
-            <div class="debate-VS text-center font-roboto">VS</div>
           </section>
 
           <section>
-            <a  class="first-section-title" href="#">
+            <a  class="first-section-title w-100" href="#">
               <h2 class="font-weight-bolder debate-heading">LATEST NEWS</h2>
             </a>
             <article class="latest-news-article d-flex border-bottom">
@@ -874,11 +1491,11 @@
               </div>
             </article>
           </section>
-
-          <div class="card-articles">
-            <article class="card rounded-0">
+          <!-- only medium screens -->
+          <div class=" sponsored-article d-none d-md-block d-lg-none mx-auto">
+            <article>
               <div>
-                <img class="rounded-0 img-100 border-0 border-top-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="President Trump">
+                <img class="rounded-0 w-100 border-0 border-top-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="President Trump">
                 <a href="#">
                   <p class="politics">POLITICS</p>
                 </a>
@@ -896,8 +1513,8 @@
               </div>
             </article>
           </div>
-          
-          <section class="newsletter">
+          <!-- newsletter medium screens-->
+          <section class="newsletter-small d-sm-block d-md-block d-lg-none mx-auto ">
             <h2 class="d-none">title</h2>
             <div class="newsletter-container d-flex flex-column border">
               <div class="d-flex align-items-center font-roboto signup-call">
@@ -917,10 +1534,10 @@
             </div>
           </section>
 
-          <div class="card-articles">
+          <div class=" sponsored-article d-none d-md-block d-lg-none mx-auto">
             <article class="card rounded-0">
               <div>
-                <img class="rounded-0 img-100 border-0 border-top-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="President Trump">
+                <img class="rounded-0 w-100 border-0 border-top-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="President Trump">
                 <a href="#">
                   <p class="politics">POLITICS</p>
                 </a>
@@ -939,10 +1556,97 @@
             </article>
           </div>
 
-          <div class="card-articles">
+          <div class="sponsored-article d-none d-md-block d-lg-none mx-auto">
             <article class="card rounded-0">
               <div>
-                <img class="rounded-0 img-100 border-0 border-top-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="President Trump">
+                <img class="rounded-0 w-100 border-0 border-top-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="President Trump">
+                <a href="#">
+                  <p class="politics">POLITICS</p>
+                </a>
+              </div>
+              <div class="card-body">
+                <a href="#">
+                  <h2 class="mag_link2 article-title pt-3">
+                    COVID-19 Linked to Changes to the Brains of Some Patients
+                  </h2>
+                </a>
+                <p class="card-text">
+                  Have the pollsters learned from their mistakes in the 
+                  2016 presidential election? Maybe. Maybe not
+                </p>
+              </div>
+            </article>
+          </div>
+          <!-- only on large screens -->
+          <div class="d-none d-lg-block">
+            <article>
+              <div>
+                <img class="rounded-0 w-100 border-0 border-top-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="President Trump">
+                <a href="#">
+                  <p class="politics">POLITICS</p>
+                </a>
+              </div>
+              <div class="card-body">
+                <a href="#">
+                  <h2 class="mag_link2 article-title pt-3">
+                    COVID-19 Linked to Changes to the Brains of Some Patients
+                  </h2>
+                </a>
+                <p class="card-text">
+                  Have the pollsters learned from their mistakes in the 
+                  2016 presidential election? Maybe. Maybe not
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <!-- newsletter -->
+          <section class="newsletter d-none d-lg-block ">
+            <h2 class="d-none">title</h2>
+            <div class="newsletter-container d-flex flex-column border">
+              <div class="d-flex align-items-center font-roboto signup-call">
+                <span class="logo-icon-newsletter">
+                  <img class="newsweek-icon"src="./new_icon.PNG" alt="newsweek-icon">
+                </span>
+                  <h1 class="newsletter-title">
+                    SIGN UP FOR OUR NEWSLETTER
+                  </h1>
+              </div>
+              <a href="#">
+                <button type="button" class="btn sign-up-btn">Sign Up ></button>
+              </a>
+              <div>
+                <a class="font-roboto pu-link" href="#">Update your preferences»</a>
+              </div>
+            </div>
+          </section>
+
+          <div class="d-none d-lg-block">
+            <article class="card rounded-0">
+              <div>
+                <img class="rounded-0 w-100 border-0 border-top-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="President Trump">
+                <a href="#">
+                  <p class="politics">POLITICS</p>
+                </a>
+              </div>
+              <div class="card-body">
+                <a href="#">
+                  <h2 class="mag_link2 article-title pt-3">
+                    COVID-19 Linked to Changes to the Brains of Some Patients
+                  </h2>
+                </a>
+                <p class="card-text">
+                  Have the pollsters learned from their mistakes in the 
+                  2016 presidential election? Maybe. Maybe not
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="d-none d-lg-block">
+            <article class="card rounded-0">
+              <div>
+                <img class="rounded-0 w-100 border-0 border-top-0"src="https://d.newsweek.com/en/full/1581097/trump-flag-pollsters-2016-2020.jpg" class="card-img-top" alt="President Trump">
                 <a href="#">
                   <p class="politics">POLITICS</p>
                 </a>
@@ -966,7 +1670,7 @@
 
       <div class="row second_section_wrapper pb-5 border-bottom">
         <section class="mag-wrapper">
-          <div class="d-flex align-items-center justify-content-center border-bottom font-roboto w-100 py-3 mag-heading">
+          <div class="d-flex align-items-center justify-content-center border-bottom font-roboto w-100 py-3 mag-heading w-100">
             <img class="newsweek-icon" src="/new_icon.PNG" alt="newsweek-logo">
             <h2 class=" mag-title px-2">IN THE MAGAZINE</h2>
           </div>
@@ -974,21 +1678,21 @@
           <div class="row d-flex justify-content-between magzine-wrapper">
             <article class="col-md-3 col-sm-12 pt-3">
               <h2 class="d-none">title</h2>
-              <div class="img-container">
-                <div class="full-width">
+              <div class="w-100">
+                <div class="w-100">
                   <a href="#">
-                    <img class="full-width "src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg" alt="">
-                    <p class="full-width category">April 24 Issue</p>
+                    <img class="w-100 "src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg" alt="">
+                    <p class="w-100 category">April 24 Issue</p>
                   </a>
                 </div>
                 <a class="mag-promo-link" href="#">SEE ALL FEATURES</a>
               </div>
             </article>
-            <article class="col-md-3 col-sm-12 pt-5 full-width" >
-              <div class="img-container">
-                <div class="full-width">
+            <article class="col-md-3 col-sm-12 pt-5 w-100 " >
+              <div class="w-100">
+                <div class="w-100 ">
                   <a href="#">
-                    <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                    <img class="w-100 full-height height-small"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
                   </a>
                 </div>
               </div>
@@ -1004,11 +1708,11 @@
                 </a>
               </div>
             </article>
-            <article class="col-md-3 col-sm-12 pt-5 full-width" >
-              <div class="img-container">
-                <div class="full-width">
+            <article class="col-md-3 col-sm-12 pt-5 w-100 " >
+              <div class="w-100">
+                <div class="w-100 ">
                   <a href="#">
-                    <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                    <img class="w-100 full-height height-small"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
                   </a>
                 </div>
               </div>
@@ -1024,11 +1728,11 @@
                 </a>
               </div>
             </article>
-            <article class="col-md-3 col-sm-12 pt-5 full-width" >
-              <div class="img-container">
-                <div class="full-width">
+            <article class="col-md-3 col-sm-12 pt-5 w-100 " >
+              <div class="w-100">
+                <div class="w-100 ">
                   <a href="#">
-                    <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                    <img class="w-100  full-height height-small"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
                   </a>
                 </div>
               </div>
@@ -1047,11 +1751,11 @@
           </div>
 
           <div class="row d-flex justify-content-between magzine-wrapper">
-            <article class="col-md-3 col-sm-12 pt-5 article2 full-width" >
-              <div class="img-container">
-                <div class="full-width">
+            <article class="col-md-3 col-sm-12 pt-5 article2 w-100 " >
+              <div class="w-100">
+                <div class="w-100 ">
                   <a href="#">
-                    <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                    <img class="w-100  full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
                   </a>
                 </div>
               </div>
@@ -1067,11 +1771,11 @@
                 </a>
               </div>
             </article>
-            <article class="col-md-3 col-sm-12 pt-5 article2 full-width" >
-              <div class="img-container">
-                <div class="full-width">
+            <article class="col-md-3 col-sm-12 pt-5 article2 w-100 " >
+              <div class="w-100">
+                <div class="w-100 ">
                   <a href="#">
-                    <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                    <img class="w-100  full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
                   </a>
                 </div>
               </div>
@@ -1087,11 +1791,11 @@
                 </a>
               </div>
             </article>
-            <article class="col-md-3 col-sm-12 pt-5 article2 full-width" >
-              <div class="img-container">
-                <div class="full-width">
+            <article class="col-md-3 col-sm-12 pt-5 article2 w-100 " >
+              <div class="w-100">
+                <div class="w-100 ">
                   <a href="#">
-                    <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                    <img class="w-100  full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
                   </a>
                 </div>
               </div>
@@ -1107,11 +1811,11 @@
                 </a>
               </div>
             </article>
-            <article class="col-md-3 col-sm-12 pt-5 article2 full-width" >
-              <div class="img-container">
-                <div class="full-width">
+            <article class="col-md-3 col-sm-12 pt-5 article2 w-100 " >
+              <div class="w-100">
+                <div class="w-100 ">
                   <a href="#">
-                    <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                    <img class="w-100  full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
                   </a>
                 </div>
               </div>
@@ -1131,16 +1835,16 @@
         </section>
           <div class="editor'spick_container">
             <section class="in_the_magazine wrapper_1">
-              <div class="d-flex align-items-center justify-content-center border-bottom font-roboto w-100 py-3 mag-heading">
+              <div class="d-flex align-items-center justify-content-center border-bottom font-roboto w-100 py-3 mag-heading w-100">
                 <img class="newsweek-icon" src="/new_icon.PNG" alt="newsweek-logo">
                 <h2 class=" mag-title px-2">EDITOR'S PICK</h2>
               </div>
                 <div class="row">
-                  <article class="col-md-3 col-sm-12 article2 full-width" >
-                    <div class="img-container">
-                      <div class="full-width">
+                  <article class="col-sm-12 col-md-6 col-lg-3 article2 w-100 " >
+                    <div class="w-100">
+                      <div class="w-100 ">
                         <a href="#">
-                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                          <img class="w-100  full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
                         </a>
                       </div>
                     </div>
@@ -1156,11 +1860,11 @@
                       </a>
                     </div>
                   </article>
-                  <article class="col-md-3 col-sm-12 article2 full-width" >
-                    <div class="img-container">
-                      <div class="full-width">
+                  <article class="col-sm-12 col-md-6 col-lg-3 article2 w-100 " >
+                    <div class="w-100">
+                      <div class="w-100 ">
                         <a href="#">
-                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                          <img class="w-100  full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
                         </a>
                       </div>
                     </div>
@@ -1176,11 +1880,11 @@
                       </a>
                     </div>
                   </article>
-                  <article class="col-md-3 col-sm-12 article2 full-width" >
-                    <div class="img-container">
-                      <div class="full-width">
+                  <article class="col-sm-12 col-md-6 col-lg-3 article2 w-100 " >
+                    <div class="w-100">
+                      <div class="w-100 ">
                         <a href="#">
-                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                          <img class="w-100  full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
                         </a>
                       </div>
                     </div>
@@ -1196,11 +1900,11 @@
                       </a>
                     </div>
                   </article>
-                  <article class="col-md-3 col-sm-12 article2 full-width" >
-                    <div class="img-container">
-                      <div class="full-width">
+                  <article class="col-sm-12 col-md-6  col-lg-3 article2 w-100 " >
+                    <div class="w-100">
+                      <div class="w-100 ">
                         <a href="#">
-                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                          <img class="w-100 full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
                         </a>
                       </div>
                     </div>
@@ -1218,11 +1922,11 @@
                   </article>
                 </div>
                 <div class="row pt-2">
-                  <article class="col-md-3 col-sm-12 full-width" >
-                    <div class="img-container">
-                      <div class="full-width">
+                  <article class="col-sm-12 col-md-6 col-lg-3 w-100 " >
+                    <div class="w-100">
+                      <div class="w-100 ">
                         <a href="#">
-                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                          <img class="w-100  full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
                         </a>
                       </div>
                     </div>
@@ -1238,11 +1942,11 @@
                       </a>
                     </div>
                   </article>
-                  <article class="col-md-3 col-sm-12 full-width" >
-                    <div class="img-container">
-                      <div class="full-width">
+                  <article class="col-sm-12 col-md-6 col-lg-3 w-100 " >
+                    <div class="w-100">
+                      <div class="w-100 ">
                         <a href="#">
-                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                          <img class="w-100  full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
                         </a>
                       </div>
                     </div>
@@ -1258,11 +1962,11 @@
                       </a>
                     </div>
                   </article>
-                  <article class="col-md-3 col-sm-12 full-width" >
-                    <div class="img-container">
-                      <div class="full-width">
+                  <article class="col-sm-12 col-md-6 col-lg-3 w-100 " >
+                    <div class="w-100">
+                      <div class="w-100 ">
                         <a href="#">
-                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                          <img class="w-100  full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
                         </a>
                       </div>
                     </div>
@@ -1278,11 +1982,11 @@
                       </a>
                     </div>
                   </article>
-                  <article class="col-md-3 col-sm-12 full-width" >
-                    <div class="img-container">
-                      <div class="full-width">
+                  <article class="col-sm-12 col-md-6 col-lg-3 w-100 " >
+                    <div class="w-100">
+                      <div class="w-100 ">
                         <a href="#">
-                          <img class="full-width full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
+                          <img class="w-100  full-height"src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg" alt="">
                         </a>
                       </div>
                     </div>
@@ -1303,102 +2007,113 @@
           </div>
       </div>
 
-      <div class="row third-section-wrapper border-bottom">
-        <div class="us-container">
-          <section>
-            <div class="d-flex align-items-center justify-content-start font-roboto us-heading-wrapper">
-              <h1 class="us px-2 mag_link font-weight-bold">U.S.</h1>
-            </div>
+      <div class="row">
+        <div class=" row d-flex align-items-center justify-content-start font-roboto signup-call py-3">
+          <h1 class="us px-2 mag_link font-weight-bold">U.S.</h1>
+        </div>
+        <div class="row">
+          <article class="all_features_articles sections_all_featured_articles sections_all_featured_articles_big card border-0 w-100 col-sm-12 col-md-4 align-self-start">
+            <div class="image">
+              <a href="#"><img class="card-img-top rounded-0"
+                  src="https://d.newsweek.com/en/full/1581273/ron-desantis.jpg?w=397&amp;h=265&amp;f=40a62dce38e9575a9874bd773f28d537"
+                  alt='a' />
+              </a>
+              </div>
+              <div>
+              <a href="#" class="link-underline">
+                <a href="#">
+                  <h2 class="mag_link2 article-title pt-2 pl-0">
+                    COVID-19 Linked to Changes to the Brains of Some Patients
+                  </h2>
+                </a>
+              </a>
+              <div class="card-text font-weight-normal">
 
-            <div class="row us-wrapper pb-5">
-              <article class=" col-md-4 img-container full-width us-article">
-                <div class="full-width">
-                  <a href="#">
-                    <img class="us-img"src="https://d.newsweek.com/en/full/1582174/disney-fmaily-singalong-live-lineup.jpg" alt="">
-                  </a>
-                </div>
-                <div>
-                  <a href="#">
-                    <h2 class="mag_link2">
-                      Global Economy Will Shrink by 3 Percent in 2020, IMF Forecasts
-                    </h2>
-                  </a>
-                </div>
-              </article>
-              <article class=" col-md-4 img-container full-width us-article">
-                <div class="full-width">
-                  <a href="#">
-                    <img class="us-img"src="https://d.newsweek.com/en/full/1582174/disney-fmaily-singalong-live-lineup.jpg" alt="">
-                  </a>
-                </div>
-                <div>
-                  <a href="#">
-                    <h2 class="mag_link2">
-                      Global Economy Will Shrink by 3 Percent in 2020, IMF Forecasts
-                    </h2>
-                  </a>
-                </div>
-              </article>
-
-              <div class=" col-md-4">
-                <article class="row pb-2 border-bottom full-width">
-                  <div class=" col-md-4 pr-2 full-width ">
-                    <a href="#">
-                      <img class="full-width height"src="https://d.newsweek.com/en/full/1582174/disney-fmaily-singalong-live-lineup.jpg" alt="">
-                    </a>
-                  </div>
-                  <div class="col-md-8">
-                    <a href="#">
-                      <h2 class="mag_link2">
-                        Global Economy Will Shrink by 3 Percent in 2020, IMF Forecasts
-                      </h2>
-                    </a>
-                  </div>
-                </article>
-                <article class="row pb-2 pt-2 border-bottom full-width">
-                  <div class=" col-md-4 pr-2 full-width ">
-                    <a href="#">
-                      <img class="full-width height"src="https://d.newsweek.com/en/full/1582174/disney-fmaily-singalong-live-lineup.jpg" alt="">
-                    </a>
-                  </div>
-                  <div class="col-md-8">
-                    <a href="#">
-                      <h2 class="mag_link2">
-                        Global Economy Will Shrink by 3 Percent in 2020, IMF Forecasts
-                      </h2>
-                    </a>
-                  </div>
-                </article>
-                <article class="row pb-2 pt-2 full-width">
-                  <div class=" col-md-4 pr-2 full-width ">
-                    <a href="#">
-                      <img class="full-width height"src="https://d.newsweek.com/en/full/1582174/disney-fmaily-singalong-live-lineup.jpg" alt="">
-                    </a>
-                  </div>
-                  <div class="col-md-8">
-                    <a href="#">
-                      <h2 class="mag_link2">
-                        Global Economy Will Shrink by 3 Percent in 2020, IMF Forecasts
-                      </h2>
-                    </a>
-                  </div>
-                </article>
               </div>
             </div>
-          </section>
-        </div>
-      </div>
+          </article>
+          <article class="all_features_articles sections_all_featured_articles sections_all_featured_articles_big card border-0 w-100 col-sm-12 col-md-4 align-self-start">
+            <div class="image">
+              <a href="#"><img class="card-img-top rounded-0"
+                  src="https://d.newsweek.com/en/full/1581273/ron-desantis.jpg?w=397&amp;h=265&amp;f=40a62dce38e9575a9874bd773f28d537"
+                  alt='a' />
+              </a>
+              </div>
+              <div>
+              <a href="#" class="link-underline">
+                <a href="#">
+                  <h2 class="mag_link2 article-title pt-2 pl-0">
+                    COVID-19 Linked to Changes to the Brains of Some Patients
+                  </h2>
+                </a>
+              </a>
+              <div class="card-text font-weight-normal">
 
+              </div>
+            </div>
+          </article>
+          <div class="article_group_3 col-sm-12 col-md-4 align-self-start">
+            <article class="story d-flex border-bottom pb-2">
+              <div class="image_small">
+                <img
+                  src="https://d.newsweek.com/en/full/1581194/zoom.jpg?w=95&amp;h=95&amp;f=5481146166f015d5f2f5380625324995"
+                  alt="a" />
+              </div>
+              <div class="story_info_container flex-column pl-3">
+                <h2 >
+                  <a class="title" href="#">
+                    More Than 500,000 Zoom Account Credentials Being Sold on Dark
+                    Web
+                  </a>
+                </h2>
+                <div class="paragraph"></div>
+              </div>
+            </article>
+            <article class="story d-flex border-bottom pb-2">
+              <div class="image_small">
+                <img
+                  src="https://d.newsweek.com/en/full/1581194/zoom.jpg?w=95&amp;h=95&amp;f=5481146166f015d5f2f5380625324995"
+                  alt="a" />
+              </div>
+              <div class="story_info_container flex-column pl-3">
+                <h2 >
+                  <a class="title" href="#">
+                    More Than 500,000 Zoom Account Credentials Being Sold on Dark
+                    Web
+                  </a>
+                </h2>
+                <div class="paragraph"></div>
+              </div>
+            </article>
+            <article class="story d-flex border-bottom pb-2">
+              <div class="image_small">
+                <img
+                  src="https://d.newsweek.com/en/full/1581194/zoom.jpg?w=95&amp;h=95&amp;f=5481146166f015d5f2f5380625324995"
+                  alt="a" />
+              </div>
+              <div class="story_info_container flex-column pl-3">
+                <h2 >
+                  <a class="title" href="#">
+                    More Than 500,000 Zoom Account Credentials Being Sold on Dark
+                    Web
+                  </a>
+                </h2>
+                <div class="paragraph"></div>
+              </div>
+            </article>
+          </div>
+      </div>
+  
       <div class="row fourth-section-wrapper border-bottom">
         <div class=" col-md-12 col-lg-8 sub-wrapper">
           <section>
             <div class=" col-lg-8 d-flex align-items-center justify-content-start font-roboto sub-wrapper2">
               <h1 class="font-weight-bold sub-title">SUBSCRIBE</h1>
             </div>
-            <article class="full-width sub-container">
+            <article class="w-100 sub-container">
               <div class="d-flex">
                 <div>
-                  <img class="sub-img full-width" src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg" alt="subscribe-img">
+                  <img class="sub-img w-100 " src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg" alt="subscribe-img">
                 </div>
                 <div class="d-flex flex-column align-items-start pt-5 sub-paragraph">
                   <h2 class="mag_link2 py-2">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h2>
@@ -1418,10 +2133,10 @@
           <div class=" col-lg-4 d-flex align-items-center justify-content-start font-roboto">
             <h1 class="font-weight-bold sub-title">NEWSLETTER</h1>
           </div>
-          <article class="full-width sign-up-container">
+          <article class="w-100  sign-up-container">
             <div class="d-flex">
               <div>
-                <img class="sign-up-img full-width" src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg" alt="subscribe-img">
+                <img class="sign-up-img w-100" src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg" alt="subscribe-img">
               </div>
               <div class="d-flex flex-column align-items-start sub-paragraph">
                 <h2 class="mag_link2 py-2">The Starting 5</h2>
@@ -1440,10 +2155,6 @@
         </div>
     
       </div> 
-
-
-
-        
     </main>
 
     <footer>
