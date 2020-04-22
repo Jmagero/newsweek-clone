@@ -2,7 +2,10 @@
 
 > In this project, I worked on making a whole website using the Bootstrap Framework. I worked on the elements we had seen previously such as Grid and Flexbox, and I included Media Queries to be able to make the website look exactly the same as the original for different screen sizes. 
 
-![screenshot](./app_screenshot.png)
+![screenshot](https://user-images.githubusercontent.com/52098394/80003448-bcdb4100-84c9-11ea-90b2-5235591709a1.png)
+
+![screenshot](https://user-images.githubusercontent.com/52098394/80003679-0af04480-84ca-11ea-80c9-ca346aad1f35.png)
+
 
 Additional description about the project and its features.
 
@@ -15,7 +18,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/Jmagero/newsweek-clone/0ed168c55eee0075f1d1a2eddcb5883d15187ee1/index.html)
 
 
 ## Getting Started
