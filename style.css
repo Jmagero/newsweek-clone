@@ -44,9 +44,7 @@ body {
   font-size: 20px;
 }
 
-
 .header_left,
-.header a,
 .nav-bar li a,
 .subscribe_btn,
 .cover-span,
@@ -88,7 +86,6 @@ body {
   font-weight: bolder;
 }
 
-
 .header-subscribe_btn,
 .category,
 .mag_link,
@@ -118,6 +115,11 @@ h2 {
   max-width: 220px;
 }
 
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .newsweek-logo {
   width: 396px;
   background-color: lavender;
@@ -127,10 +129,6 @@ h2 {
   display: inline-block;
   white-space: nowrap;
   padding: 0 60px 0 20px;
-}
-
-header a {
-  text-decoration: none;
 }
 
 .nav-bar li a {
@@ -534,7 +532,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
 
-@media(max-width: 576px) {
+@media (max-width: 576px) {
   .newsweek-logo-small {
     max-width: 131px;
   }
