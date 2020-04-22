@@ -96,7 +96,7 @@ body {
 .top-navbar,
 .subscribe_btn,
 .cover-span {
-  color: rgb(247, 36, 16);
+  background: rgb(247, 36, 16);
 }
 
 h2 {
@@ -113,11 +113,6 @@ h2 {
 
 .header_left {
   max-width: 220px;
-}
-
-header a {
-  text-decoration: none;
-  color: #fff;
 }
 
 .newsweek-logo {
