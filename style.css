@@ -44,8 +44,9 @@ body {
   font-size: 20px;
 }
 
-header a,
+
 .header_left,
+.header a,
 .nav-bar li a,
 .subscribe_btn,
 .cover-span,
@@ -128,15 +129,15 @@ h2 {
   padding: 0 60px 0 20px;
 }
 
+header a {
+  text-decoration: none;
+}
+
 .nav-bar li a {
   width: 67px;
   height: 24px;
   padding: 0 8px;
   color: #000;
-}
-
-header a {
-  text-decoration: none;
 }
 
 .nav-img {
@@ -254,7 +255,8 @@ header a {
   background: rgb(236, 238, 239);
 }
 
-.debate_img, .opinin_img {
+.debate_img,
+.opinin_img {
   width: 60px;
   height: 60px;
 }
@@ -389,9 +391,9 @@ h1 a:hover {
   width: fit-content;
   margin-bottom: 2.4rem;
   display: block;
-  font-size : bold 16px;
+  font-size: bold 16px;
   padding: 0 10px;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   z-index: 1;
 }
@@ -546,7 +548,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .menu-icon {
     min-width: 74px;
     min-height: 50px;
-    color: #FB9A94;
+    color: hsl(3, 93%, 78%);
   }
 
   .fa-bars {
