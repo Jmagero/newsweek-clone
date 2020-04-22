@@ -11,12 +11,12 @@ body {
 .header_left,
 .top-story-paragraph,
 .more-stories-paragraph,
-.pu-link{
+.pu-link {
   font-size: 15px;
 }
 
 .first-section-title,
-.opinion_heading{
+.opinion_heading {
   font-size: 16px;
 }
 
@@ -28,62 +28,35 @@ body {
 
 .top_navbar_sign_in,
 .subscribe_btn,
-.mag-promo-link{
+.mag-promo-link {
   font-size: 18px;
 }
 
 .nav-bar li a,
 .search_input,
 .newsletter-title,
-.mag-title{
+.mag-title {
   font-size: 19px;
 }
 
-.article-title,
-.fa-search{
+.article-title, .fa-search {
   font-size: 20px;
 }
 
 header a,
-.header_left,
-.nav-bar li a,
-.subscribe_btn,
-.cover-span,
-.sign-up-btn{
+.header_left, .nav-bar li a, .subscribe_btn, .cover-span, .sign-up-btn {
   color: #fff;
 }
 
-.opinion_paragraph,
-.opinion-stories-title,
-.more-stories-title,
-.debate-author,
-.debate_host span,
-.newsletter-title,
-.pu-link,
-.mag-date,
-.mag-title,
-.mag_link2,
-.title{
+.opinion_paragraph, .opinion-stories-title, .more-stories-title, .debate-author, .debate_host span, .newsletter-title, .pu-link, .mag-date, .mag-title, .mag_link2, .title {
   color: #000;
 }
 
-.opinion_author,
-.more-stories-title,
-.opinion-stories-title,
-.debate-author,
-.newsletter-title,
-.pu-link,
-.mag-title,
-.mag-promo-link,
-.title,
-.footer-copyright{
+.opinion_author, .more-stories-title, .opinion-stories-title, .debate-author, .newsletter-title, .pu-link, .mag-title, .mag-promo-link, .title, .footer-copyright {
   font-weight: bold;
 }
 
-.header-subscribe_btn,
-.subscribe_btn,
-.debate_host span,
-.mag_link2{
+.header-subscribe_btn, .subscribe_btn, .debate_host span, .mag_link2 {
   font-weight: bolder;
 }
 
@@ -125,7 +98,7 @@ header a {
 .nav-bar li a {
   width: 67px;
   height: 24px;
-  border-right: solid 1px lavender;
+  /* border-right: solid 1px lavender; */
   padding: 0 8px;
   color: #000;
 }
@@ -143,6 +116,7 @@ header a {
   color: #F72210;
   padding: 6px 10px;
   border: none;
+  cursor: pointer;
 }
 
 .subscribe_btn {
@@ -158,6 +132,7 @@ header a {
 .fa-search {
   padding-top: 10px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .heading {
@@ -245,7 +220,8 @@ header a {
   background: #ECEEEF;
 }
 
-.debate_img, .opinin_img {
+.debate_img,
+.opinin_img {
   width: 60px;
   height: 60px;
 }
@@ -364,6 +340,7 @@ header a {
   font: bold 18px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   background-color: #666;
+  cursor: pointer;
 }
 
 .category {
@@ -501,7 +478,22 @@ h1 a:hover {
 
 .footer-copyright {
   font-size: 10px;
- 
+}
+
+.footer-links{
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 6px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+}
+
+.bottom-links{
+  border-right: 1px solid #d9d9d9;
+  padding-right: 10px;
+  margin-right: 10px;
 }
 
 /*
@@ -549,4 +541,3 @@ Extra (xl) large devices (large desktops, 1200px and up)
   }
 }
 
-@media (min-width: 992px) {}

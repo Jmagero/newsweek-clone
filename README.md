@@ -1,6 +1,6 @@
-# Project Name
+# Newsweek clone: Bootstrap
 
-> One paragraph statement about the project.
+> In this project, I worked on making a whole website using the Bootstrap Framework. I worked on the elements we had seen previously such as Grid and Flexbox, and I included Media Queries to be able to make the website look exactly the same as the original for different screen sizes. 
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,9 +8,10 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Bootstrap,
+- HTML,
+- CSS,
+- Font Awesome
 
 ## Live Demo
 
@@ -19,45 +20,26 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+ 
+ $ cd <folder>
+ 
+ $ git clone https://github.com/Jmagero/newsweek-clone.git
 
 ## Authors
 
-👤 **Author1**
+👤 Jocyline Magero
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Github: [@Jmagero](https://github.com/Jmagero)
+- Twitter: [@MagzCelyn](https://twitter.com/MagzCelyn)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](/https://github.com/Jmagero/newsweek-clone/issues).
 
 ## Show your support
 
@@ -65,9 +47,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Project originally taken from The Odin Project
+- Project inspired by Microverse Program
 
 ## 📝 License
 
