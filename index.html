@@ -70,31 +70,31 @@
       </div>
     </header>
 
-    <nav class=" nav-bar navbar-expand-lg navbar-light navigation border-bottom">
-      <div class=" collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="d-flex flex-row align-items-center nav-list font-weight-bold text-body justify-content-between">
-          <li class="nav-item"><a class="border-right" href="#">U.S</a></li>
-          <li  class="nav-item"><a class="border-right" href="#">World</a></li>
-          <li class="nav-item"><a class="border-right" href="#">Business</a></li>
-          <li class="nav-item"><a class="border-right" href="#">Tech & Science</a></li>
-          <li class="nav-item"><a class="border-right" href="#">Culture</a></li>
-          <li class="nav-item"><a class="border-right" href="#">Newsgeek</a></li>
-          <li class="nav-item"><a class="border-right" href="#">Sports</a></li>
-          <li class="nav-item"><a class="border-right" href="#">Health</a></li>
-          <li class="nav-item"><a class="border-right" href="#">The Debate</a></li>
-          <li class="nav-item"><a class="border-right" href="#">Vantage</a></li>
-          <li class="nav-item"><a  href="#">Weather</a></li>
-          <li  class="nav-item nav-icons noPadding text-body d-flex flex-row">
-            <input class=" form-control border-0 search_input w-100" type="search" placeholder="Search" aria-label="Search">
-              <i class="fa fa-search text-body search-icon " aria-hidden="true"></i>
-          </li>
-        </ul>
+    <nav>
+      <div class="navbar-wrapper d-none d-lg-flex justify-content-lg-around align-items-center">
+        <a href="#" class="navbar-link col_nav">U.S.</a>
+        <a href="#" class="navbar-link col_nav">World</a>
+        <a href="#" class="navbar-link col_nav">Business</a>
+        <a href="#" class="navbar-link col_nav">Tech & Science</a>
+        <a href="#" class="navbar-link col_nav">Culture</a>
+        <a href="#" class="navbar-link col_nav">Newsgeek</a>
+        <a href="#" class="navbar-link col_nav">Sports</a>
+        <a href="#" class="navbar-link col_nav">Health</a>
+        <a href="#" class="navbar-link col_nav">The Debate</a>
+        <a href="#" class="navbar-link col_nav">Vantage</a>
+        <a href="#" class="navbar-link col_nav nav-weather">Weather</a>
+        <div class="search-wrapper d-flex align-items-center">
+          <input type="text" class="search" placeholder="Search" />
+          <span>
+            <i class="fas fa-search"></i>
+          </span>
+        </div>
       </div>
     </nav>
 
     <main class="container-fluid main-wrapper">
       <!-- first section small screen -->
-      <section class="top-story  d-sm-block d-md-none d-lg-none">
+      <!-- <section class="top-story  d-sm-block d-md-none d-lg-none">
         <a  class="first-section-title w-100" href="#">
           <h2 class="font-weight-bolder">TOP STORY</h2>
         </a>
@@ -667,13 +667,13 @@
         </article>
         
 
-      </section>
+      </section> -->
 
       <!-- first section on large screen -->
 
       <div class="row first-section-wrapper">
         <div class="col-md-5 col-lg ">
-          <section class="d-sm-none d-md-block d-lg-block">
+          <section class="d-sm-block d-md-block d-lg-block order-sm-2">
             <a  class="first-section-title w-100" href="#">
               <h2 class="font-weight-bolder">FEATURED STORIES</h2>
             </a>
@@ -858,7 +858,7 @@
         </div>
 
         <div class="col-md-7 col-lg-5">
-          <section class="top-story d-sm-none d-md-block d-lg-block">
+          <section class="top-story d-sm-block d-md-block d-lg-block order-sm-1">
             <a  class="first-section-title w-100" href="#">
               <h2 class="font-weight-bolder">TOP STORY</h2>
             </a>
