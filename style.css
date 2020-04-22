@@ -97,7 +97,7 @@ header a,
 
 .top-navbar,
 .subscribe_btn,
-.cover-span{
+.cover-span {
   color: rgb(247, 36, 16);
 }
 
@@ -277,8 +277,8 @@ header a {
   font-size: 13px;
   text-align: center;
   text-decoration: none;
-  color: #484C4D;
-  background-color: #C2D4D7;
+  color: rgb(72, 76, 77);
+  background-color: rgb(194, 212, 215);
 }
 
 .more-stories-article {
@@ -321,7 +321,7 @@ header a {
   width: 40px;
   height: 40px;
   background-color: #000;
-  color: #d6d6d6;
+  color: hsl(0, 0%, 84%);
   border-radius: 50%;
   font: bold 14px/40px "Roboto Condensed", sans-serif;
   text-align: center;
@@ -350,8 +350,8 @@ header a {
 .newsletter-container {
   max-width: 300px;
   margin: 0 auto 30px;
-  border: 1px solid #e5e5e5;
-  background-color: #f4f5f6;
+  border: 1px solid hsl(0, 0%, 90%);
+  background-color: hsl(210, 10%, 96%);
   padding: 20px;
 }
 
@@ -415,7 +415,7 @@ h1 a:hover {
 
 .mag-promo-link {
   display: block;
-  background-color: #f4f5f6;
+  background-color: hsl(210, 10%, 96%);
   color: black;
   text-align: center;
   margin-bottom: 0;
@@ -472,7 +472,7 @@ h1 a:hover {
 }
 
 .sub-container {
-  background-color: #F4F5F6;
+  background-color: hsl(210, 10%, 96%);
   padding: 30px;
 }
 
@@ -506,7 +506,7 @@ h1 a:hover {
 .footer-links {
   display: flex;
   flex-wrap: wrap;
-  border-top: 1px solid #d9d9d9;
+  border-top: 1px solid hsl(0, 0%, 85%);
   padding-top: 6px;
   font-size: 14px;
   line-height: 15px;
@@ -514,7 +514,7 @@ h1 a:hover {
 }
 
 .bottom-links {
-  border-right: 1px solid #d9d9d9;
+  border-right: 1px solid hsl(0, 0%, 85%);
   padding-right: 10px;
   margin-right: 10px;
 }
@@ -532,13 +532,13 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
 
-@media(max-width:576px){
+@media(max-width: 576px) {
   .newsweek-logo-small {
     max-width: 131px;
   }
 }
 
-@media (min-width:576px){
+@media (min-width: 576px) {
   .newsweek-logo-small {
     max-width: 131px;
   }
@@ -554,7 +554,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   }
 }
 
-@media (min-width:768px){
+@media (min-width: 768px) {
   .newsweek-logo-small {
     max-width: 131px;
   }
