@@ -99,6 +99,23 @@ body {
   background: rgb(247, 36, 16);
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+h4:hover
+h2:hover{
+  text-decoration: red underline;
+}
+
+h6 a:hover{
+  text-decoration: none;
+}
+
+h4:hover{
+  color: red;
+  text-decoration: none;
+}
 h2 {
   padding: 0 0 11px;
 }
@@ -204,8 +221,10 @@ h2 {
 
 .first-section-title {
   color: rgb(154, 154, 154);
-  max-width: 329px;
-  min-height: 388px;
+}
+
+.first-section-title:hover{
+  text-decoration: none;
 }
 
 .featured-articles {
@@ -244,9 +263,14 @@ h2 {
 }
 
 .heros-pandemic-section-title{
- text-decoration: none;
- font-size: 16px;
- color: rgba(3, 3, 3, 0.5);
+  text-decoration: none;
+  font-size: 16px;
+  color: rgba(3, 3, 3, 0.5);
+}
+
+.heros-pandemic-section-title :hover{
+  text-decoration: none;
+  color: none;
 }
 
 .hero-pandemic-title{
@@ -264,11 +288,11 @@ h2 {
   color: rgb(171,171,171);
   line-height: 20px;
 }
-a:hover{
+/* a:hover{
   text-decoration: none;
   background-color: none;
   text-underline-position: none;
-}
+} */
 
 .heros-articles {
   min-height: 515px;
@@ -535,47 +559,6 @@ h1 a:hover {
   height: 98px;
 }
 
-/* .sub-title {
-  font: 16px;
-  padding: 0 0 11px;
-}
-
-.sub-img {
-  max-width: 170px;
-}
-
-.sub-wrapper {
-  padding: 40px 0 0;
-}
-
-.sub-wrapper2 {
-  padding: 0 11px;
-}
-
-.sub-container {
-  background-color: hsl(210, 10%, 96%);
-  padding: 30px;
-}
-
-.sub-paragraph {
-  padding: 0 0 0 30px;
-}
-
-.signup-wrapper {
-  min-height: 301px;
-  padding: 40px 0 0;
-}
-
-.sign-up-img {
-  max-width: 390px;
-  min-height: 287px;
-}
-
-.sign-up-container {
-  background-color: white;
-  padding-left: 0 15px;
-} */
-
 .slide-tag {
   background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
   font-size: 1.5rem;
@@ -588,37 +571,50 @@ div .slide-tag {
 
 /* ---------------ASIDE SECTION------------ */
 
-.img-newsletter {
-  top: 40px;
-  left: 70px;
+.aside-title{
+  font-size: 24px;
+  font-family: "Robonto Condensed" sans-serif;
+  color: #000;
+  font-weight: bold;
 }
 
+.aside-title-small{
+  font-size: 20px;
+  font-family: "Robonto Condensed" sans-serif;
+  color: #000;
+  font-weight: bold;
+}
+
+.aside-small-para{
+  font-size: 15px;
+  font-family: "Robonto Condensed" sans-serif;
+}
+
+.img-newsletter {
+  top: 10px;
+  left: 30px;
+}
+
+
 .newsletter-div {
-  height: 290px;
+  height: 279px;
   background: url(https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf) 50% 0/cover no-repeat;
 }
 
-aside .section-title-2 {
-  font-size: 1rem;
+.newsletter-div-small {
+  height: 160px;
 }
 
-aside .btn {
-  background-color: #f72210;
-}
-
-aside .border-top {
-  border: 2px solid #f4f5f6;
+.aside-paragraph{
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
 }
 
 .gray-background {
   background-color: #f4f5f6;
 }
 
-
-/* © 2020 GitHub, Inc.
-.footer-logo {
-  max-width: 236px;
-} */
 
 .footer-copyright {
   font-size: 10px;
@@ -683,6 +679,10 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
   .fa-bars {
     font-size: 35px;
+  }
+
+  .newsletter-div-small {
+    background: url(https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf) 50% 0/cover no-repeat;
   }
 }
 
