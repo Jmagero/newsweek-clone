@@ -138,7 +138,7 @@ h2 {
 }
 
 .row
-.navbar_wrapper{
+.navbar_wrapper { 
   width: 100%;
   margin: 0 auto;
 }
@@ -258,10 +258,6 @@ h2 {
   display: block;
 }
 
-.top-story-article {
-  padding: 0 0 20px;
-}
-
 .heros-pandemic-section-title{
   text-decoration: none;
   font-size: 16px;
@@ -288,37 +284,9 @@ h2 {
   color: rgb(171,171,171);
   line-height: 20px;
 }
-/* a:hover{
-  text-decoration: none;
-  background-color: none;
-  text-underline-position: none;
-} */
 
 .heros-articles {
   min-height: 515px;
-  height: 100%;
-}
-
-.hero-img {
-  width: 100%;
-}
-
-.hero-img-h {
-  max-height: 149px;
-  height: 100%;
-}
-
-.hero-body {
-  padding: 15px 0 20px;
-}
-
-
-.opinion-article {
-  padding: 0 0 10px;
-}
-
-.opinion_heading {
-  margin-left: 3%;
 }
 
 .world {
@@ -361,10 +329,6 @@ h2 {
 .more-stories-article {
   max-width: 487px;
   padding: 14px 0;
-}
-
-.latest-news-article {
-  padding: 10px;
 }
 
 .more-stories-title {
@@ -471,7 +435,6 @@ h1 a:hover {
   background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   z-index: 1;
-  /* height: 32px; */
 }
 
 .category a:hover {
