@@ -2,9 +2,11 @@
 
 > In this project, I worked on making a whole website using the Bootstrap Framework. I worked on the elements we had seen previously such as Grid and Flexbox, and I included Media Queries to be able to make the website look exactly the same as the original for different screen sizes. 
 
-![screenshot](https://user-images.githubusercontent.com/52098394/80003448-bcdb4100-84c9-11ea-90b2-5235591709a1.png)
+![screenshot](https://user-images.githubusercontent.com/52098394/80251808-e38ea880-867e-11ea-870d-883c457e73ce.png)
 
-![screenshot](https://user-images.githubusercontent.com/52098394/80003679-0af04480-84ca-11ea-80c9-ca346aad1f35.png)
+![screenshot](https://user-images.githubusercontent.com/52098394/80251912-1173ed00-867f-11ea-912e-f56bc207da31.png)
+
+![screenshot](https://user-images.githubusercontent.com/52098394/80252042-408a5e80-867f-11ea-927c-10c0a017f7f8.png)
 
 
 Additional description about the project and its features.
