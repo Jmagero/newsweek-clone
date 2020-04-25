@@ -34,6 +34,10 @@ body {
   font-size: 18px;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .copyright,
 .list-group-item a {
   font-size: 12px;
@@ -111,10 +115,6 @@ body {
 .subscribe_btn,
 .cover-span {
   background: rgb(247, 36, 16);
-}
-
-a:hover {
-  text-decoration: none;
 }
 
 h2 {
