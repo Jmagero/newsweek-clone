@@ -2,10 +2,12 @@ body {
   max-width: 1310px;
   margin: 0 auto;
   font-family: "Roboto Condensed", sans-serif;
+  background-color: hsl(210, 10%, 96%);
 }
 
 .main-wrapper {
   padding: 20px 30px 0;
+  background-color: #fff;
 }
 
 .header_left,
@@ -104,15 +106,15 @@ a:hover {
 }
 
 h4:hover
-h2:hover{
+h2:hover {
   text-decoration: red underline;
 }
 
-h6 a:hover{
+h6 a:hover {
   text-decoration: none;
 }
 
-h4:hover{
+h4:hover {
   color: red;
   text-decoration: none;
 }
@@ -137,29 +139,27 @@ h2 {
   background-color: lavender;
 }
 
-.row
-.navbar_wrapper { 
-  max-width: 100%;
+.navbar-wrapper { 
+  width: 100%;
   margin: 0 auto;
+  background-color: #fff;
 }
 
 .navbar-link {
   display: inline-block;
-  padding-right: 1%;
   white-space: nowrap;
   color: #000;
 }
 
-.navbar-link a :hover{
+.navbar-link a :hover {
   color: red;
 }
 
 .search-wrapper {
   display: inline-block;
   border: none;
-  width: 100px;
+  width: 80px;
   height: 54px;
-  padding: 15px 15px 15px 0;
 }
 
 .search-wrapper {
@@ -167,13 +167,12 @@ h2 {
 }
 
 .col_nav {
-  font-size: 19px;
   border-right: solid 1px #d9d9d9;
   height: fit-content;
-  justify-content: flex-start;
+  justify-content: start;
 }
 
-.search{
+.search {
   width: 100px;
   width: 60px;
   height: 54px;
@@ -181,7 +180,7 @@ h2 {
   border: none;
 }
 
-.nav-weather{
+.nav-weather {
   border-right: none;
 }
 
@@ -258,18 +257,18 @@ h2 {
   display: block;
 }
 
-.heros-pandemic-section-title{
+.heros-pandemic-section-title {
   text-decoration: none;
   font-size: 16px;
   color: rgba(3, 3, 3, 0.5);
 }
 
-.heros-pandemic-section-title :hover{
+.heros-pandemic-section-title :hover {
   text-decoration: none;
   color: none;
 }
 
-.hero-pandemic-title{
+.hero-pandemic-title {
   color:rgb(39,39,39);
   font-size: 20px;
   font-family: "Lora", serif;
@@ -277,7 +276,7 @@ h2 {
   font-weight: lighter;
 }
 
-.hero-pandemic-para{
+.hero-pandemic-para {
   font-size: 15px;
   margin: 0 0 10px;
   font-family: Arial, Helvetica, sans-serif;
@@ -480,30 +479,31 @@ h1 a:hover {
   text-decoration: none;
 }
 
-.all-magz-articles-img{
+.all-magz-articles-img {
   width: 100%;
   height: 100%;
   min-height: 278px ;
 }
+
 .newsweek-icon {
   width: 30px;
   height: 30px;
 }
 
-.editor-title{
+.editor-title {
   font-size: 24px;
   font-family: "Roboto Condensed", sans-serif;
   color: #000;
   font-weight: bold;
 }
 
-.editor-text{
+.editor-text {
   color: #333;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.us-title{
+.us-title {
   font-size: 22px;
   font-family: "Roboto Condensed",sans-serif;
   color: #000;
@@ -511,12 +511,11 @@ h1 a:hover {
   font-weight: bold;
 }
 
-.us-article-title-small{
+.us-article-title-small {
   color: #000;
   font-size: 17px;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
-
 }
 .height {
   height: 98px;
@@ -532,23 +531,21 @@ div .slide-tag {
   height: 63px;
 }
 
-/* ---------------ASIDE SECTION------------ */
-
-.aside-title{
+.aside-title {
   font-size: 24px;
   font-family: "Robonto Condensed" sans-serif;
   color: #000;
   font-weight: bold;
 }
 
-.aside-title-small{
+.aside-title-small {
   font-size: 20px;
   font-family: "Robonto Condensed" sans-serif;
   color: #000;
   font-weight: bold;
 }
 
-.aside-small-para{
+.aside-small-para {
   font-size: 15px;
   font-family: "Robonto Condensed" sans-serif;
 }
@@ -557,7 +554,6 @@ div .slide-tag {
   top: 10px;
   left: 30px;
 }
-
 
 .newsletter-div {
   height: 279px;
@@ -568,16 +564,15 @@ div .slide-tag {
   height: 160px;
 }
 
-.aside-paragraph{
+.aside-paragraph {
   text-align: center;
   width: 100%;
   font-size: 20px;
 }
 
 .gray-background {
-  background-color: #f4f5f6;
+  background-color: hsl(210, 10%, 96%);
 }
-
 
 .footer-copyright {
   font-size: 10px;
@@ -598,13 +593,14 @@ div .slide-tag {
   padding-right: 10px;
   margin-right: 10px;
 }
+
 .footer-logo {
   width: 236px;
   height: 35px;
 }
 
 .copyright,
-.list-group-item a{
+.list-group-item a {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   color: #666;
@@ -666,4 +662,5 @@ Extra (xl) large devices (large desktops, 1200px and up)
     height: 100%;
   }
 }
+
 
