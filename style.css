@@ -101,6 +101,13 @@ body {
   background: rgb(247, 36, 16);
 }
 
+.copyright,
+.list-group-item a {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -160,9 +167,6 @@ h2 {
   border: none;
   width: 80px;
   height: 54px;
-}
-
-.search-wrapper {
   margin-right: 70px;
 }
 
@@ -297,7 +301,8 @@ h2 {
   background: rgb(236, 238, 239);
 }
 
-.debate_img, .opinin_img {
+.debate_img,
+.opinin_img {
   width: 60px;
   height: 60px;
 }
@@ -428,7 +433,6 @@ h1 a:hover {
   font-weight: bold;
   margin-bottom: 3.4rem;
   display: block;
-  font-size: bold 16px;
   padding: 10px 10px;
   background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
@@ -459,7 +463,6 @@ h1 a:hover {
   color: black;
   text-align: center;
   margin-bottom: 0;
-  padding: 10px 10px 10px 12px;
   line-height: 18px;
   text-transform: uppercase;
   padding: 10px 10px 10px 12px;
@@ -533,21 +536,21 @@ div .slide-tag {
 
 .aside-title {
   font-size: 24px;
-  font-family: "Robonto Condensed" sans-serif;
+  font-family: "Roboto Condensed" sans-serif;
   color: #000;
   font-weight: bold;
 }
 
 .aside-title-small {
   font-size: 20px;
-  font-family: "Robonto Condensed" sans-serif;
+  font-family: "Roboto Condensed" sans-serif;
   color: #000;
   font-weight: bold;
 }
 
 .aside-small-para {
   font-size: 15px;
-  font-family: "Robonto Condensed" sans-serif;
+  font-family: "Roboto Condensed" sans-serif;
 }
 
 .img-newsletter {
@@ -597,12 +600,6 @@ div .slide-tag {
 .footer-logo {
   width: 236px;
   height: 35px;
-}
-
-.copyright, .list-group-item a {
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #666;
 }
 
 /*
